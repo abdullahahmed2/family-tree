@@ -1,19 +1,26 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import './RCName.css';
 
-export default class RCName extends React.Component {
+class RCName extends React.Component {
   render() {
     return(
-      <form>
-        <label for='name'>First Name</label>
-        <input type='text' name='Firstname' id='Firstname' />
-        <br>
-        <label for='name'>Middle Name</label>
-        <input type='text' name='Middlename' id='Middlename' />
-        <br>
-        <label for='name'>Last Name</label>
-        <input type='text' name='Lastname' id='Lastname' />
-      </form>
+      <div>
+      <h1 >Please enter your full name</h1>
+        <form>
+            <label for='name'><strong>First Name</strong> :</label>
+            <input type='text' name='Firstname' id='Firstname' />
+            <br />
+            <br />
+            <label for='name'><strong>Middle Name</strong> :</label>
+            <input type='text' name='Middlename' id='Middlename' />
+            <br />
+            <br />
+            <label for='name'><strong>Last Name</strong> :</label>
+            <input type='text' name='Lastname' id='Lastname' />
+          </form>
+      </div>
     );
   }
 }
+
+export default RCName;
