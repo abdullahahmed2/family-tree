@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class ContactPage extends React.Component {
     render() {
@@ -10,6 +11,9 @@ class ContactPage extends React.Component {
                     <li>Check out our <a href="https://www.facebook.com/">Facebook</a> Page!</li>
                     <li>Follow our <a href="https://twitter.com/?lang=en">Twitter</a></li>
                 </ul>
+                <div>
+                    <Link to="/about">About the Team</Link>
+                </div>
             </div>
         );
     }
