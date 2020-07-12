@@ -1,15 +1,31 @@
 import React from 'react';
+import NavBar from './nav.js';
+import './aboutpage.css';
 
 class AboutPage extends React.Component {
     render() {
         return (
             <div>
+                <div> <NavBar /> </div>
                 <h1>About the Team</h1>
                 <div>
-                    Project Manager: Shahina Rahman
-                    <div>
-                    Project Team: Ehsen Ahmad, Abdullah Ahmed, Muhammad Ahmed, Syed Ahmed, Usama Ahmed, Yusra Ahmed, Hafsa Aleem, Sofia Aleem, Ramiz Hassan, Usman Rahman
-                    </div>
+                    <ul id="project-team">
+                        <b>Project Manager</b>:
+                        <li><a href="https://www.linkedin.com/in/shahina-rahman-81aa901b/">Shahina Rahman</a></li>
+                    </ul>
+                    <ul id="project-team">
+                    <b>Project Team</b>:
+                        <li>Ehsen Ahmad</li>
+                        <li>Abdullah Ahmed</li>
+                        <li>Muhammad Ahmed</li>
+                        <li>Syed Ahmed (Ahsad Ahmed)</li>
+                        <li><a href="https://www.linkedin.com/in/usama-ameen-ahmed-4501001b1/">Usama Ahmed</a></li>
+                        <li><a href="https://www.linkedin.com/in/yusra-ahmed-741504196/">Yusra Ahmed</a></li>
+                        <li>Hafsa Aleem</li>
+                        <li><a href="https://www.linkedin.com/in/sofia-aleem-8b55a11a0/">Sofia Aleem</a></li>
+                        <li>Ramiz Hassan</li>
+                        <li><a href="https://www.linkedin.com/in/usman-rahman-6a6086161/">Usman Rahman</a></li>
+                    </ul>
                 </div>
             </div>
         )
