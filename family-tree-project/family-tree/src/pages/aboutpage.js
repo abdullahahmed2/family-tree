@@ -18,7 +18,7 @@ class AboutPage extends React.Component {
                         <li>Ehsen Ahmad</li>
                         <li>Abdullah Ahmed</li>
                         <li>Muhammad Ahmed</li>
-                        <li>Syed Ahmed (Ahsad Ahmed)</li>
+                        <li>Syed Fahad Ahmed</li>
                         <li><a href="https://www.linkedin.com/in/usama-ameen-ahmed-4501001b1/">Usama Ahmed</a></li>
                         <li><a href="https://www.linkedin.com/in/yusra-ahmed-741504196/">Yusra Ahmed</a></li>
                         <li>Hafsa Aleem</li>
