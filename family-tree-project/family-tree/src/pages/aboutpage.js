@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from './nav.js';
-import './aboutpage.css';
+import './pages.css';
 
 class AboutPage extends React.Component {
     render() {
