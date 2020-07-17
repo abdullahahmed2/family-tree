@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from './nav.js';
+import { Link } from 'react-router-dom';
 import './pages.css';
 
 class AboutPage extends React.Component {
@@ -21,7 +22,7 @@ class AboutPage extends React.Component {
                         <li>Syed Fahad Ahmed</li>
                         <li><a href="https://www.linkedin.com/in/usama-ameen-ahmed-4501001b1/">Usama Ahmed</a></li>
                         <li><a href="https://www.linkedin.com/in/yusra-ahmed-741504196/">Yusra Ahmed</a></li>
-                        <li>Hafsa Aleem</li>
+                        <li><Link to='/abouthafsa'>Hafsa Aleem</Link></li>
                         <li><a href="https://www.linkedin.com/in/sofia-aleem-8b55a11a0/">Sofia Aleem</a></li>
                         <li>Ramiz Hassan</li>
                         <li><a href="https://www.linkedin.com/in/usman-rahman-6a6086161/">Usman Rahman</a></li>
