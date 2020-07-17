@@ -12,10 +12,11 @@ function App() {
       <div className="container">
         <Router>
             <Switch>
-                <Route exact path='/' component={ContactPage} />
+                <Route exact path='/contact' component={ContactPage} />
                 <Route exact path='/about' component={AboutPage} />
                 <Route exact path='/name' component={RCName} />
-                <Route component={NotFound} />
+                <Route exact path='/404' component={NotFound} />
+                <Redirect to='/404' />
             </Switch>
         </Router>
       </div>
