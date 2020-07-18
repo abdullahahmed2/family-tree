@@ -8,7 +8,7 @@ class AboutPage extends React.Component {
         return (
             <div>
                 <div> <NavBar /> </div>
-                <h1>About the Team</h1>
+                <h1>About the Team!!!!!!!</h1>
                 <div>
                     <ul id="project-team">
                         <b>Project Manager</b>:
@@ -16,7 +16,7 @@ class AboutPage extends React.Component {
                     </ul>
                     <ul id="project-team">
                     <b>Project Team</b>:
-                        <li>Ehsen Ahmad</li>
+                        <li><Link to='/aboutehsen'>Ehsen Ahmad</Link></li>
                         <li>Abdullah Ahmed</li>
                         <li>Muhammad Ahmed</li>
                         <li>Syed Fahad Ahmed</li>
