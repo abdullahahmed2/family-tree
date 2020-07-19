@@ -7,6 +7,7 @@ import NotFound from './pages/notfoundpage.js';
 import RCName from './RCName.js';
 import hafsapage from './contact/hafsapage.js';
 import ehsenpage from './contact/ehsenpage.js';
+import dobDD from './components/dob-drop-down';
 
 function App() {
   return (
@@ -14,10 +15,12 @@ function App() {
       <div className="container">
         <Router>
             <Switch>
+                /*<Route exact path='/' component={HomePage}: Home page will be inserted here */
                 <Route exact path='/contact' component={ContactPage} />
                 <Route exact path='/about' component={AboutPage} />
                 <Route exact path='/abouthafsa' component={hafsapage} />
                 <Route exact path='/aboutehsen' component={ehsenpage} />
+                <Route exact path='/dobdd' component={dobDD} />
                 <Route exact path='/name' component={RCName} />
                 <Route exact path='/404' component={NotFound} />
                 <Redirect to='/404' />

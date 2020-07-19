@@ -56,7 +56,8 @@ class dobDD extends React.Component {
                     </select>
                     <select>
                         <option value="year">Year</option>
-                        <option value="1950">1930
+                        <option value="1930">1930</option>
+                        <option value="1940">1940</option>
                     </select>
                 </form>
             </div>
