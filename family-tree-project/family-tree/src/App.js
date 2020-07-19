@@ -15,7 +15,6 @@ function App() {
       <div className="container">
         <Router>
             <Switch>
-                /*<Route exact path='/' component={HomePage}: Home page will be inserted here */
                 <Route exact path='/contact' component={ContactPage} />
                 <Route exact path='/about' component={AboutPage} />
                 <Route exact path='/abouthafsa' component={hafsapage} />

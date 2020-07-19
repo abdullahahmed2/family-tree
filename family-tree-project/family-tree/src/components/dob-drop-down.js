@@ -5,7 +5,7 @@ class dobDD extends React.Component {
         return (
             <div>
                 <form>
-                    <Date of Birth> <br></br>
+                    Date of Birth<br></br>
                     <select name="Month">
                         <option value="month">Month</option>
                         <option value="january">January</option>
@@ -64,3 +64,5 @@ class dobDD extends React.Component {
         )
     }
 }
+
+export default dobDD;
