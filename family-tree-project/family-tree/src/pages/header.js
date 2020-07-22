@@ -2,8 +2,8 @@ import React from 'react';
 import './header.css';
 
 class header export React.Component{
-	render{
-		return() (
+	render() {
+		return (
 			<header>
 					<div className='container'>
 						<div id ="branding">
@@ -26,4 +26,6 @@ class header export React.Component{
 			</header>
 			)
 		}
-	}	
+	}
+
+export default header;
