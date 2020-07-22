@@ -4,7 +4,7 @@
 }
 
 body{
-  background-image: url(https://miro.medium.com/max/10708/1*Oq92ZIGTAVHPVtqq_LpGjw.jpeg);
+  background-image: url(https://www.technocrazed.com/wp-content/uploads/2015/12/Tree-wallpaper-to-use-as-background-123.jpg);
   background-repeat: no-repeat;
 }
 
@@ -17,15 +17,16 @@ h1{
 .register{
   background: none;
   width: 500px;
-  margin: 0px 0px 0px 550px;
-  color: white;
+  margin: auto;
+  color: black;
   font-size: 18px;
   padding: 20px;
   border-radius: 10px;
+  text-align: center;
 }
 
 label{
-  color: white;
+  color: black;
   font-family: sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -49,6 +50,10 @@ label{
 #Mnum{
   width: 160px;
   padding: 3px;
+}
+
+.gender{
+  color: white;
 }
 
 .submit{

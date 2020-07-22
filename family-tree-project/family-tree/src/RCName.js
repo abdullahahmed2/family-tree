@@ -5,8 +5,9 @@ class RCName extends React.Component {
   render() {
     return(
      <body>
-       <h1>Register Here</h1>
+
       <div className="register">
+        <h1>Register Here</h1>
         <form method='post' id='register' action=''>
             <label for='name'>First Name:</label><br />
             <input type='text' name='Firstname' id='name' maxLength={10} placeholder='First name' required/><br /><br />
@@ -33,10 +34,10 @@ class RCName extends React.Component {
             <label>Re-enter your password:</label><br />
             <input type='Password' name='pass' id='name' placeholder='Re-enter password' required></input><br /><br />
 
-            <label>Male:</label>&nbsp;
-            <input type='radio' id='male'></input>&nbsp;&nbsp;
-            <label>Female:</label>&nbsp;
-            <input type='radio' id='female'></input><br /><br />
+            <label className='gender'>Male:</label>&nbsp;
+            <input type='radio' id='gender'></input>&nbsp;&nbsp;
+            <label className='gender'>Female:</label>&nbsp;
+            <input type='radio' id='gender'></input><br /><br />
 
             <input type="submit" value="Submit" className="submit"/>
         </form>
