@@ -23,4 +23,4 @@ class helpTip extends React.Component {
   }
 }
 
-export default helpTip 
+export default helpTip
