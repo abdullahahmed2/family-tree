@@ -1,23 +1,23 @@
 import React from 'react';
 import './Homepage.css';
-
+import NavBar from './nav.js';
 
 class homepage extends React.Component{
 		render() {
 			return(
 				<div className="App">
-					
+				<NavBar />
 				<body>
 					<header>
 						<div className='container'>
 							<div id ="branding">
-							<h1>SADAT-E-JAJNERI</h1>	
+							<h1>SADAT-E-JAJNERI</h1>
 							</div>
-								
+
 							<div className = "profile">
 							<a href=""> <img  src=" https://www.innonet.org/media/blank-profile-picture.png " width= "43px" height= "43px" /> </a>
 							</div>
-								
+
 							<nav>
 							    <ul>
 									<li className="current"><a href="Homepage.html">Home</a></li>
@@ -33,10 +33,10 @@ class homepage extends React.Component{
 						<div className="container">
 						</div>
 					</section>
-						
+
 					<section id="text">
 						<div className="container">
-						<h2>where life begins </h2>
+						<h2>where life begins</h2>
 						<h1>AND NEVER ENDS</h1>
 						</div>
 					</section>
@@ -47,7 +47,7 @@ class homepage extends React.Component{
 							`		<h1>Family hierarchy</h1>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 									tempor incclassclassunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet
-									consectetur adipisicing elit, sed do eiusmod tempor incclassclassunt ut labore et 
+									consectetur adipisicing elit, sed do eiusmod tempor incclassclassunt ut labore et
 									dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit
 									sed do eiusmod tempor incclassclassunt ut labore et dolore magna aliqua.</p>
 									<br/>
@@ -59,7 +59,7 @@ class homepage extends React.Component{
 									<h1>About</h1>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 									tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet
-									consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et 
+									consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 									dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit
 									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 									<br/>
@@ -69,7 +69,7 @@ class homepage extends React.Component{
 							</div>
 						</div>
 					</section>
-						
+
 					<footer>
 							<div className = "CR">
 							Copyright &copy; 2020 SADAT-E-JAJNERI
@@ -80,9 +80,9 @@ class homepage extends React.Component{
 					</footer>
 
 				</body>
-		   
+
 				</div>
 			);
-		} 
-	}  
+		}
+	}
 	export default homepage;
