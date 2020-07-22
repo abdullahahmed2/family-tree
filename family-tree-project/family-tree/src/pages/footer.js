@@ -2,8 +2,8 @@ import React from 'react';
 import './footer.css';
 
 class footer extract React.Component{
-	render{
-		return() (
+	render() {
+		return (
 				<footer>
 					<div className = "CR">
 					Copyright &copy; 2020 SADAT-E-JAJNERI
@@ -15,4 +15,6 @@ class footer extract React.Component{
 				</footer>		
 			)
 		}
-	}	
+	}
+
+export default footer;
