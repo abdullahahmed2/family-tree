@@ -1,10 +1,11 @@
 /*collapsible*/
-.indivudual-person {
-    
+.Collapsible__trigger {
+    cursor: pointer;
+    color: green;
 }
 
-.information {
-
+.Collapsible__contentInner {
+    color:
 }
 
 /*about the team page*/

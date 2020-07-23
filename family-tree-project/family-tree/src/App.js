@@ -5,8 +5,8 @@ import ContactPage from './pages/contactpage.js';
 import AboutPage from './pages/aboutpage.js';
 import NotFound from './pages/notfoundpage.js';
 import RCName from './RCName.js';
-import hafsapage from './contact/hafsapage.js';
-import ehsenpage from './contact/ehsenpage.js';
+import hafsapage from './pages/hafsapage.js';
+import ehsenpage from './pages/ehsenpage.js';
 import helpTip from './components/helpicon.js';
 import dobCalendar from './components/calendar-component.js';
 import homepage from './pages/Homepage.js';
@@ -21,8 +21,6 @@ function App() {
                 <Route exact path='/' component={homepage} />
                 <Route exact path='/contact' component={ContactPage} />
                 <Route exact path='/about' component={AboutPage} />
-                <Route exact path='/abouthafsa' component={hafsapage} />
-                <Route exact path='/aboutehsen' component={ehsenpage} />
                 <Route exact path='/helpicon' component={helpTip} />
                 <Route exact path='/dob' component={dobCalendar} />
                 <Route exact path='/name' component={RCName} />
