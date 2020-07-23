@@ -23,7 +23,12 @@ class AboutPage extends React.Component {
                         <li>Syed Fahad Ahmed</li>
                         <li>Usama Ahmed</li>
                         <li>Yusra Ahmed</li>
-                        <li>Hafsa Aleem</li>
+                        <li><Collapsible trigger="Hafsa Aleem">
+                          <div>
+                          <p>Hafsa is a high school student who worked alongside her team members to build this family-oriented application. She picked up many new skills, such as coding, to help contribute to this project. Hafsa is eager to continue gaining experience in different fields in order to determine her future work pathway.</p>
+                            <a href="https://www.linkedin.com/in/hafsa-aleem-773358a5/">LinkedIn</a>
+                          </div>
+                          </Collapsible></li>
                         <li>Sofia Aleem</li>
                         <li>Ramiz Hassan</li>
                         <li><Collapsible trigger="Usman Rahman">
