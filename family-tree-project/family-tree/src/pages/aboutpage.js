@@ -3,6 +3,7 @@ import NavBar from './nav.js';
 import { Link } from 'react-router-dom';
 import './pages.css';
 import Collapsible from 'react-collapsible';
+import ehsenpage from './ehsenpage.js';
 
 class AboutPage extends React.Component {
     render() {
@@ -18,13 +19,13 @@ class AboutPage extends React.Component {
                     <ul id="project-team">
                     <b>Project Team</b>:
 
-                        <li><div><Collapsible trigger="Ehsen Ahmad">
+                        <li><Collapsible trigger="Ehsen Ahmad">
                             <p>Ehsen Ahmad</p>
-                            </Collapsible></div> </li>
+                            </Collapsible></li>
 
-                        <li><div><Collapsible trigger="Abdullah Ahmed">
+                        <li><Collapsible trigger="Abdullah Ahmed">
                             <p>Abdullah Ahmed</p>
-                            </Collapsible></div> </li>
+                            </Collapsible></li>
 
                         <li><Collapsible trigger="Muhammad Ahmed">
                             <p>Muhammad Ahmed</p>
@@ -58,7 +59,8 @@ class AboutPage extends React.Component {
                             </Collapsible> </li>
 
                         <li><Collapsible trigger="Usman Rahman">
-                                </Collapsible> </li>
+                            <p>UConn CS Student</p>
+                            </Collapsible> </li>
                     </ul>
                 </div>
             </div>

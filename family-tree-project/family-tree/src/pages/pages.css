@@ -4,26 +4,33 @@
     cursor: pointer;
     background-color: #777;
     color: white;
-    padding: 12px;
+    padding: 10px;
     width: 25%;
     border: none;
-    text-align: middle;
+    text-align: center;
     outline: none;
     font-size: 15px;
     font-weight: bold;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .Collapsible__contentInner {
    padding: 10px;
    overflow: hidden;
-   width: 40px;
-   height: 60px;
-   text-align: middle;
+   width: 100px;
+   height: 100px;
+   text-align: center;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 
 }
 
 .Collapsible__contentOuter {
-  padding: 20px;
+  margin: 15px;
 }
 
 /*about the team page*/
