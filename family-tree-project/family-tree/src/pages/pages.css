@@ -11,12 +11,19 @@
     outline: none;
     font-size: 15px;
     font-weight: bold;
-    /*okay the buttons r so close together i tried margin it didnt work omg help*/
-
 }
 
 .Collapsible__contentInner {
-   padding: 18px;
+   padding: 10px;
+   overflow: hidden;
+   width: 40px;
+   height: 60px;
+   text-align: middle;
+
+}
+
+.Collapsible__contentOuter {
+  padding: 20px;
 }
 
 /*about the team page*/

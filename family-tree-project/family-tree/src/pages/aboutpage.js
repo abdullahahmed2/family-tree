@@ -19,13 +19,13 @@ class AboutPage extends React.Component {
                     <ul id="project-team">
                     <b>Project Team</b>:
 
-                        <li><Collapsible trigger="Ehsen Ahmad">
+                        <li><div><Collapsible trigger="Ehsen Ahmad">
                             <p>Ehsen Ahmad</p>
-                            </Collapsible> </li>
+                            </Collapsible></div> </li>
 
-                        <li><Collapsible trigger="Abdullah Ahmed">
+                        <li><div><Collapsible trigger="Abdullah Ahmed">
                             <p>Abdullah Ahmed</p>
-                            </Collapsible> </li>
+                            </Collapsible></div> </li>
 
                         <li><Collapsible trigger="Muhammad Ahmed">
                             <p>Muhammad Ahmed</p>
