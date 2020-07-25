@@ -20,7 +20,7 @@ class RCName extends React.Component {
             <input type='text' name='Lastname' id='name' maxLength={10} placeholder='Last name' required/><br /><br />
 
             <label for='dob'>Date of Birth:</label><br/>
-            <input type='date' name='date-of-birth' id='dob' placeholder='mm/dd/yyyy' /><br /><br />
+            <input type='date' name='date-of-birth' id='dob' placeholder='mm/dd/yyyy' required /><br /><br />
 
             <label>Mobile number: </label><br />
             <select id='phone'>
@@ -30,7 +30,7 @@ class RCName extends React.Component {
             <input type='number' placeholder='Mobile number' name='Mobile number' id='Mnum' maxLength={10} required ></input><br /><br />
 
             <label>Email: </label><br />
-            <input type='Email' name='email' id='name' placeholder='example@gmail.com'></input><br /><br />
+            <input type='Email' name='email' id='name' placeholder='example@gmail.com' required></input><br /><br />
 
             <label>Password: </label><br />
             <input type='Password' name='pass' id='name' placeholder='password' required></input><br /><br />
