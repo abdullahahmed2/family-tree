@@ -1,6 +1,5 @@
 import React from 'react';
 import './RCName.css';
-import dobDD from './components/dobDD.js';
 import NavBar from './pages/nav.js';
 
 class RCName extends React.Component {
