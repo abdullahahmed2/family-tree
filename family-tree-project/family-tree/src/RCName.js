@@ -1,11 +1,11 @@
 import React from 'react';
 import './RCName.css';
+import dobCalendar from './components/dob-calendar.js';
 
 class RCName extends React.Component {
   render() {
     return(
      <body>
-
       <div className="register">
         <h1>Register Here</h1>
         <form method='post' id='register' action=''>
@@ -38,6 +38,7 @@ class RCName extends React.Component {
             <input type='radio' id='gender'></input>&nbsp;&nbsp;
             <label className='gender'>Female:</label>&nbsp;
             <input type='radio' id='gender'></input><br /><br />
+
 
             <input type="submit" value="Submit" className="submit"/>
         </form>
