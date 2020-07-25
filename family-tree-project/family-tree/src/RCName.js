@@ -1,11 +1,13 @@
 import React from 'react';
 import './RCName.css';
-import dobCalendar from './components/dob-calendar.js';
+import dobDD from './components/dobDD.js';
+import NavBar from './pages/nav.js';
 
 class RCName extends React.Component {
   render() {
     return(
      <body>
+     <NavBar />
       <div className="register">
         <h1>Register Here</h1>
         <form method='post' id='register' action=''>
@@ -17,6 +19,9 @@ class RCName extends React.Component {
 
             <label for='name'>Last Name:</label><br />
             <input type='text' name='Lastname' id='name' maxLength={10} placeholder='Last name' required/><br /><br />
+
+            <label for='dob'>Date of Birth:</label><br/>
+            <input type='date' name='date-of-birth' id='dob' placeholder='mm/dd/yyyy' /><br /><br />
 
             <label>Mobile number: </label><br />
             <select id='phone'>

@@ -7,7 +7,6 @@ import RCName from './RCName.js';
 import hafsapage from './pages/hafsapage.js';
 import ehsenpage from './pages/ehsenpage.js';
 import helpTip from './components/helpicon.js';
-import dobCalendar from './components/dob-calendar.js';
 import dobDD from './components/dobDD.js';
 import homepage from './pages/Homepage.js';
 import Address from './components/address.js';

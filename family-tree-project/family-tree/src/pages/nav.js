@@ -6,6 +6,7 @@ class NavBar extends React.Component {
     render () {
         return (
             <ul id="nav">
+                <li><Link to='/name'>Registration</Link></li>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">About the Team</Link> </li>
                 <li><Link to="/contact">Contact</Link> </li>
