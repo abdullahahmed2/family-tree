@@ -26,7 +26,7 @@ class AboutPage extends React.Component {
 
                         <li><Collapsible trigger="Abdullah Ahmed">
                             <p>Abdullah Ahmed</p>
-                            <a href="https://www.linkedin.com/" target="_blank">Connect with Abdullah on LinkedIn!</a>
+                            <a href="http://linkedin.com/in/abdullah-ahmed-3698251b0" target="_blank">Connect with Abdullah on LinkedIn!</a>
                             </Collapsible></li>
 
                         <li><Collapsible trigger="Muhammad Ahmed">
