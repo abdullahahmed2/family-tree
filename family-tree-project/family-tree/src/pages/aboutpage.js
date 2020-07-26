@@ -1,6 +1,9 @@
 import React from 'react';
 import NavBar from './nav.js';
-import './aboutpage.css';
+import { Link } from 'react-router-dom';
+import './pages.css';
+import Collapsible from 'react-collapsible';
+import ehsenpage from './ehsenpage.js';
 
 class AboutPage extends React.Component {
     render() {
@@ -11,20 +14,53 @@ class AboutPage extends React.Component {
                 <div>
                     <ul id="project-team">
                         <b>Project Manager</b>:
-                        <li><a href="https://www.linkedin.com/in/shahina-rahman-81aa901b/">Shahina Rahman</a></li>
+                        <li>Shahina Rahman</li>
                     </ul>
                     <ul id="project-team">
                     <b>Project Team</b>:
-                        <li>Ehsen Ahmad</li>
-                        <li>Abdullah Ahmed</li>
-                        <li>Muhammad Ahmed</li>
-                        <li>Syed Fahad Ahmed</li>
-                        <li><a href="https://www.linkedin.com/in/usama-ameen-ahmed-4501001b1/">Usama Ahmed</a></li>
-                        <li><a href="https://www.linkedin.com/in/yusra-ahmed-741504196/">Yusra Ahmed</a></li>
-                        <li>Hafsa Aleem</li>
-                        <li><a href="https://www.linkedin.com/in/sofia-aleem-8b55a11a0/">Sofia Aleem</a></li>
-                        <li>Ramiz Hassan</li>
-                        <li><a href="https://www.linkedin.com/in/usman-rahman-6a6086161/">Usman Rahman</a></li>
+
+                        <li><Collapsible trigger="Ehsen Ahmad">
+                            <p>Ehsen Ahmad</p>
+                            </Collapsible></li>
+
+                        <li><Collapsible trigger="Abdullah Ahmed">
+                            <p>Abdullah Ahmed</p>
+                            </Collapsible></li>
+
+                        <li><Collapsible trigger="Muhammad Ahmed">
+                            <p>Muhammad Ahmed</p>
+                            </Collapsible> </li>
+
+                        <li><Collapsible trigger="Syed Fahad Ahmed">
+                            <p>Syed Fahad Ahmed</p>
+                            </Collapsible> </li>
+
+                        <li><Collapsible trigger="Usama Ahmed">
+                            <p>Usama Ahmed</p>
+                            </Collapsible> </li>
+
+                        <li><Collapsible trigger="Yusra Ahmed">
+                            <p>Yusra Ahmed</p>
+                            </Collapsible> </li>
+
+                        <li><Collapsible trigger="Hafsa Aleem">
+                          <div>
+                          <p>Hafsa is a high school student who worked alongside her team members to build this family-oriented application. She picked up many new skills, such as coding, to help contribute to this project. Hafsa is eager to continue gaining experience in different fields in order to determine her future work pathway.</p>
+                            <a href="https://www.linkedin.com/in/hafsa-aleem-773358a5/">Connect with Hafsa on LinkedIn!</a>
+                          </div>
+                          </Collapsible></li>
+
+                        <li><Collapsible trigger="Sofia Aleem">
+                            <p>Sofia Aleem</p>
+                            </Collapsible> </li>
+
+                        <li><Collapsible trigger="Ramiz Hassan">
+                            <p>Ramiz Hassan</p>
+                            </Collapsible> </li>
+
+                        <li><Collapsible trigger="Usman Rahman">
+                            <p>UConn CS Student</p>
+                            </Collapsible> </li>
                     </ul>
                 </div>
             </div>
