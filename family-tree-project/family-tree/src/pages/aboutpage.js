@@ -20,27 +20,33 @@ class AboutPage extends React.Component {
                     <b>Project Team</b>:
 
                         <li><Collapsible trigger="Ehsen Ahmad">
-                            <p>Ehsen Ahmad</p>
+                            <p>EhsenAhmad</p>
+                            <a href="https://www.linkedin.com/">Connect with Ehsen on LinkedIn!</a>
                             </Collapsible></li>
 
                         <li><Collapsible trigger="Abdullah Ahmed">
                             <p>Abdullah Ahmed</p>
+                            <a href="https://www.linkedin.com/">Connect with Abdullah on LinkedIn!</a>
                             </Collapsible></li>
 
                         <li><Collapsible trigger="Muhammad Ahmed">
                             <p>Muhammad Ahmed</p>
+                            <a href="https://www.linkedin.com/">Connect with Muhammad on LinkedIn!</a>
                             </Collapsible> </li>
 
                         <li><Collapsible trigger="Syed Fahad Ahmed">
                             <p>Syed Fahad Ahmed</p>
+                            <a href="https://www.linkedin.com/">Connect with Syed on LinkedIn!</a>
                             </Collapsible> </li>
 
                         <li><Collapsible trigger="Usama Ahmed">
                             <p>Usama Ahmed</p>
+                            <a href="https://www.linkedin.com/">Connect with Usama on LinkedIn!</a>
                             </Collapsible> </li>
 
                         <li><Collapsible trigger="Yusra Ahmed">
                             <p>Yusra Ahmed</p>
+                            <a href="https://www.linkedin.com/">Connect with Yusra on LinkedIn!</a>
                             </Collapsible> </li>
 
                         <li><Collapsible trigger="Hafsa Aleem">
@@ -52,14 +58,17 @@ class AboutPage extends React.Component {
 
                         <li><Collapsible trigger="Sofia Aleem">
                             <p>Sofia Aleem</p>
+                            <a href="https://www.linkedin.com/">Connect with Sofia on LinkedIn!</a>
                             </Collapsible> </li>
 
                         <li><Collapsible trigger="Ramiz Hassan">
                             <p>Ramiz Hassan</p>
+                            <a href="https://www.linkedin.com/">Connect with Ramiz on LinkedIn!</a>
                             </Collapsible> </li>
 
                         <li><Collapsible trigger="Usman Rahman">
                             <p>UConn CS Student</p>
+                            <a href="https://www.linkedin.com/">Connect with Usman on LinkedIn!</a>
                             </Collapsible> </li>
                     </ul>
                 </div>
