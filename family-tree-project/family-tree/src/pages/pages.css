@@ -19,13 +19,13 @@
 
 .Collapsible__contentInner {
    padding: 10px;
-   overflow: hidden;
-   width: 100px;
+   width: 350px;
    height: 100px;
    text-align: center;
    display: block;
    margin-left: auto;
    margin-right: auto;
+   overflow: auto;
 
 }
 
