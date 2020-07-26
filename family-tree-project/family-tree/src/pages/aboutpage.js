@@ -20,7 +20,7 @@ class AboutPage extends React.Component {
                     <b>Project Team</b>:
 
                         <li><Collapsible trigger="Ehsen Ahmad">
-                            <p>EhsenAhmad</p>
+                            <p>Ehsen Ahmad</p>
                             <a href="https://www.linkedin.com/">Connect with Ehsen on LinkedIn!</a>
                             </Collapsible></li>
 
