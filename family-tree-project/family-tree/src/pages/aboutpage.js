@@ -14,7 +14,10 @@ class AboutPage extends React.Component {
                 <div>
                     <ul id="project-team">
                         <b>Project Manager</b>:
-                        <li>Shahina Rahman</li>
+                        <li><Collapsible trigger="Shahina Rahman">
+                            <p></p>
+                            <a href="https://www.linkedin.com/in/shahina-rahman-81aa901b/" target="_blank">Connect with Shahina on LinkedIn!</a>
+                            </Collapsible></li>
                     </ul>
                     <ul id="project-team">
                     <b>Project Team</b>:
