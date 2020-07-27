@@ -16,6 +16,7 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
+    content: '\02795';
 }
 
 .Collapsible__contentInner {
@@ -29,6 +30,7 @@
    margin-left: auto;
    margin-right: auto;
    overflow: auto;
+   background-color: #ebebeb;
 
 }
 
