@@ -21,6 +21,8 @@
 
 .Collapsible__contentInner {
    padding: 10px;
+   overflow: hidden;
+   width: 400px;
    width: 350px;
    height: 100px;
    text-align: center;

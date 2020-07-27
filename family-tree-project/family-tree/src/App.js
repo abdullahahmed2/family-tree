@@ -9,6 +9,7 @@ import ehsenpage from './pages/ehsenpage.js';
 import helpTip from './components/helpicon.js';
 import homepage from './pages/Homepage.js';
 import Address from './components/address.js';
+import history from './pages/historicalplaces.js';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
                 <Route exact path='/helpicon' component={helpTip} />
                 <Route exact path='/name' component={RCName} />
                 <Route exact path='/address' component={Address} />
+                <Route exact path='/historicalplaces' component={history} />
                 <Route exact path='/404' component={NotFound} />
                 <Redirect to='/404' />
             </Switch>
