@@ -1,0 +1,31 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-image: url(https://www.psychologies.co.uk/sites/default/files/styles/psy2_page_header/public/field/image/family%20interaction.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+
+}
+.login-form{
+  background:rgba(0,0,0,0.8);
+  width:100%;
+  max-width: 500px;
+  height:100%;
+  margin:10% auto;
+  padding: 30px;
+  color:white;
+}
+.input-box input{
+  width:440px;
+  margin: 5px auto;
+  border-bottom: 2px solid #000;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  color:black;
+}
+.text{
+  color:white;
+}
