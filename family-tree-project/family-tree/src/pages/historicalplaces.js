@@ -12,7 +12,7 @@ class history extends React.Component {
 
         <h3>Patna</h3>
 
-        <img scr="Patna.jpg" alt="Picture of Patna" />
+        <img scr="https://img.traveltriangle.com/blog/wp-content/uploads/2020/04/cover-for-Things-To-Do-In-Patna_6th-Apr.jpg" />
 
         <p> Patna is the capital city of the province Bihar, and is one of the
         oldest conintuously inhabited places in the world. It was founded in
