@@ -12,7 +12,11 @@ class history extends React.Component {
 
         <h3>Patna</h3>
 
-        <img scr="Patna.jpg" alt="Picture of Patna" />
+<<<<<<< HEAD
+        <img scr="Downloads/Patna.jpg" alt="Picture of Patna" />
+=======
+        <img src=" https://files.slack.com/files-pri/T015X84M2RX-F017TF4HKNX/patna.jpg " alt="Picture of Patna"/>
+>>>>>>> ab69c9d2b7124023c8297250bbb7af4dfcd09272
 
         <p> Patna is the capital city of the province Bihar, and is one of the
         oldest conintuously inhabited places in the world. It was founded in
@@ -28,7 +32,11 @@ class history extends React.Component {
 
         <h3>Sherghati</h3>
 
-        <img scr="" alt="Picture of Sherghati"/>
+<<<<<<< HEAD
+        <img scr="Downloads/sherghati.jpeg" alt="Picture of Sherghati"/>
+=======
+        <img src=" https://www.gozocabs.com/blog/wp-content/uploads/2018/06/Sherghati.jpg " />
+>>>>>>> ab69c9d2b7124023c8297250bbb7af4dfcd09272
 
         <p> Sherghati is a town in Bihar, India in the Gaya district and is
         surrounded by the Morhar River. It translates to “The Valley of Lions”
