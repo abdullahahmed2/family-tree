@@ -6,6 +6,7 @@ body{
 	background-color:#f4f4f4;
 }
 
+
 /* Global */
 .container {
 	width:100%;
@@ -32,47 +33,22 @@ header{
 }
 .profile {
 	float: right;
-	padding-left: 10px;
-	width: 5%;
-	padding-right: 40px;
-}
-header h1{
-	width: 100%;
-	padding-left: 60px;
-}
-nav{
-	margin-right: 0px;
-	width: 48%;
-	padding-right: 0px;
-	margin-right: 0px;
-}
-header a{
-	color:#fff;
-	text-decoration:none;
-	text-transform:uppercase;
-	font-size:16px;
-}
-header li{
-	display:inline;
-	float:left;
-	padding:0 20px 0 20px;
+	margin-left: 0px;
+	margin-right: 50px;
+	margin-top: 27px;
+	margin-bottom: auto;
+
 }
 header #branding{
 	float:left ;
 }
 header #branding h1{
-	margin:0;
+	margin-left: 0px;
+	padding-bottom: 30px;
+	margin-bottom: 7px;
+	margin-left: 7px;
 }
-header nav{
-	float:right;
-	margin-top:10px;
-}
-header .current a{
-	color:red;
-}
-header a:hover{
-	color:red;
-}
+
 
 
 
@@ -80,17 +56,18 @@ header a:hover{
 #showcase {
 box-sizing:border-box;
 min-width:80%;
-min-height:574px;
+min-height:700px;
 padding:3px;
 border:1px solid black;
 background-size: 100% 100%;
+background-image: url();
 text-align:center;
 }
 
 
 /*text*/
 #text {
-	padding:0px;
+	padding:30px;
 	color:#ffffff;
 	background:#35424a;
 }
@@ -108,10 +85,6 @@ text-align:center;
 
 /* Boxes */
 .box2, .box1{
-padding-left:50px;
-padding-right:50px;
-padding-top:20px;
-padding-bottom:30px;
 width: 90%;
 }
 .box1 p ,.box1 h1, .box2 p , .box2 h1{
@@ -128,23 +101,31 @@ margin-right: 130px;
 }
 #boxes .box1{
 float:left;
-width: 40%;
+width: 37%;
 text-align:center;
 box-sizing:border-box;
 background-color: #354248;
-margin-left: 50px;
-margin-top:60px;
-margin-bottom: 60px;
+margin-left: 40px;
+margin-top:100px;
+margin-bottom: 80px;
+padding-left:70px;
+padding-right:70px;
+padding-top:50px;
+padding-bottom:50px;
 }
 #boxes .box2{
 float:right;
-width:40%;
+width:37%;
 text-align:center;
 box-sizing:border-box;
 background-color: #354248;
-margin-right:50px;
-margin-top:60px;
-margin-bottom: 60px;
+margin-right:40px;
+margin-top:105px;
+margin-bottom: 80px;
+padding-left:70px;
+padding-right:70px;
+padding-top:70px;
+padding-bottom:60px;
 }
 
 
