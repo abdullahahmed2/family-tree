@@ -1,3 +1,8 @@
+/*histoicalpages css*/
+
+
+
+
 /*collapsible*/
 
 .Collapsible__trigger {
@@ -18,6 +23,8 @@
     display: block;
     content: '\02795';
 }
+
+
 
 .Collapsible__contentInner {
    padding: 10px;
@@ -61,27 +68,22 @@
 
 /*navbar css*/
 #nav {
-  margin-right: 0px;
-  margin-left: 170px;
-  margin-top:40px;
-  width: 48%;
-  padding-right: 0px;
-  float:left;
+    width: 100%;
+    float: left;
+    margin: 0 0 3em 0;
+    padding: 0;
+    list-style: none;
 }
+
 #nav li {
-  display:inline;
-  float:left;
-  padding:0 20px 0 20px;
+    float: left;
 }
+
 #nav li a {
-  color:#fff;
-  text-decoration:none;
-  text-transform:uppercase;
-  font-size:16px;
-}
-#nav .current a{
-	color:red;
-}
-#nav a:hover{
-	color:red;
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #069;
+    border-right: 1px solid #ccc;
 }
