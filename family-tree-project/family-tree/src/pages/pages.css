@@ -76,14 +76,11 @@
 }
 
 #nav li {
-<<<<<<< HEAD
   display:inline;
   color: red;
   float:left;
   padding:0 20px 0 20px;
-=======
-    float: left;
->>>>>>> e8c97f60bc58cf5031ca21bc45cf372c8443cc0e
+  float: left;
 }
 
 #nav li a {
