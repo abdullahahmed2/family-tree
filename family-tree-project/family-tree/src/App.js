@@ -10,7 +10,7 @@ import helpTip from './components/helpicon.js';
 import homepage from './pages/Homepage.js';
 import Address from './components/address.js';
 import history from './pages/historicalplaces.js';
-import Login from './pages/login-page.js';
+import Login from './pages/loginpage.js';
 
 function App() {
 
