@@ -1,11 +1,12 @@
 import React from 'react';
-import NavBar from './nav.js';
+import Header from './Header.js';
+import Footer from './Footer.js';
 
 class history extends React.Component {
   render() {
     return(
       <div>
-        <div><NavBar/> </div>
+        <div><Header/> </div>
 
         <h1>Historical Places</h1>
         <body>
@@ -42,6 +43,8 @@ class history extends React.Component {
         major crops grown are rice, wheat, legume, groundnut, and sugarcane.</p>
 
         </body>
+
+        <Footer/>
       </div>
     )
   }
