@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import './Page.css';
-import {Button, Form, FormGroup, Label, Input}
-    from 'reactstrap';
+import './login-page.css';
+import {Button, Form, FormGroup, Label, Input} from 'reactstrap';
 import {FacebookLoginButton} from 'react-social-login-buttons';
+
 class Page extends Component{
   render(){
     return(

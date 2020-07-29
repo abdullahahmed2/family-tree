@@ -82,4 +82,5 @@ class homepage extends React.Component{
 			)
 		}
 	}
-	export default homepage;
+
+export default homepage;
