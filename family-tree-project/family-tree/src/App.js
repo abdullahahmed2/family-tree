@@ -10,6 +10,7 @@ import helpTip from './components/helpicon.js';
 import homepage from './pages/Homepage.js';
 import Address from './components/address.js';
 import history from './pages/historicalplaces.js';
+import Login from './pages/loginpage.js';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Router>
             <Switch>
                 <Route exact path='/' component={homepage} />
+                <Route exact path='/login' component={Login}/>
                 <Route exact path='/contact' component={ContactPage} />
                 <Route exact path='/about' component={AboutPage} />
                 <Route exact path='/helpicon' component={helpTip} />
