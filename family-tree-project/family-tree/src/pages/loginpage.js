@@ -12,12 +12,12 @@ class Login extends Component{
 
 
        <FormGroup className='input-box'>
-         <Label className = "email">Email Address</Label>
+         <Label className = "email"></Label>
          <div>
          <input type='email' placeholder='Email Address'/>
          </div>
 
-         <Label className = "password">Password</Label>
+         <Label className = "password"></Label>
          <div>
          <input type = 'password' placeholder ='Password'/>
          </div>
