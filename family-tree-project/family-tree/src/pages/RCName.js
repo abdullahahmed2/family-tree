@@ -38,7 +38,7 @@ class RCName extends React.Component {
                   <option>+92</option>
                   <option>+1</option>
                 </select>
-                <input type='number' placeholder='Mobile number' name='Mobile number' id='Mnum' maxLength={10} required ></input><br/><br/>
+                <input type='tel' placeholder='Mobile number' name='Mobile number' id='Mnum' maxLength={10} required ></input><br/><br/>
            </div>
 
 
