@@ -1,19 +1,32 @@
 import React from 'react';
-import NavBar from './nav.js';
+import Header from './Header.js';
+import Footer from './Footer.js';
 
 class history extends React.Component {
   render() {
     return(
       <div>
-        <div><NavBar/> </div>
+        <div><Header/> </div>
 
         <h1>Historical Places</h1>
         <body>
 
         <h3>Patna</h3>
 
+<<<<<<< HEAD
         <img id="patnaimage1" src=" https://www.lib.lsu.edu/sites/all/files/sc/exhibits/e-exhibits/india/px2d7.jpg " alt="Patna during British Occupation"/>
         <p>This city has played a big role in India historically, being a significant
+=======
+        <img scr="Downloads/Patna.jpg" alt="Picture of Patna" />
+        <img src=" https://files.slack.com/files-pri/T015X84M2RX-F017TF4HKNX/patna.jpg " alt="Picture of Patna"/>
+
+        <p> Patna is the capital city of the province Bihar, and is one of the
+        oldest conintuously inhabited places in the world. It was founded in
+        490 BCE under the name of Pataliputra and borders the Ganges River.
+        Patna was the center of a lot of art and education and has been
+        associated with two ancient religions, Buddhism and Jainism. This
+        city has played a big role in India historically, being a significant
+>>>>>>> b51160f6cb53dd682a52bf57bef3c9819fbcc22a
         territory during the Delhi Sultanate, Mughul Empire, Nawabs of
         Bengal, East India Company, and the British Raj. Patna was the
         center of the First War of Independence and actively participated
@@ -29,6 +42,7 @@ class history extends React.Component {
 
         <h3>Sherghati</h3>
 
+        <img scr="Downloads/sherghati.jpeg" alt="Picture of Sherghati"/>
         <img src=" https://www.gozocabs.com/blog/wp-content/uploads/2018/06/Sherghati.jpg " />
 
         <p> Sherghati is a town in Bihar, India in the Gaya district and is
@@ -41,6 +55,8 @@ class history extends React.Component {
         major crops grown are rice, wheat, legume, groundnut, and sugarcane.</p>
 
         </body>
+
+        <Footer/>
       </div>
     )
   }

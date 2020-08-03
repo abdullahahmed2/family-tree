@@ -3,13 +3,14 @@ import { BrowserRouter as Router, Route, Switch, Link, Redirect } from 'react-ro
 import ContactPage from './pages/contactpage.js';
 import AboutPage from './pages/aboutpage.js';
 import NotFound from './pages/notfoundpage.js';
-import RCName from './RCName.js';
+import RCName from './pages/RCName.js';
 import hafsapage from './pages/hafsapage.js';
 import ehsenpage from './pages/ehsenpage.js';
 import helpTip from './components/helpicon.js';
 import homepage from './pages/Homepage.js';
 import Address from './components/address.js';
 import history from './pages/historicalplaces.js';
+import Login from './pages/loginpage.js';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Router>
             <Switch>
                 <Route exact path='/' component={homepage} />
+                <Route exact path='/login' component={Login}/>
                 <Route exact path='/contact' component={ContactPage} />
                 <Route exact path='/about' component={AboutPage} />
                 <Route exact path='/helpicon' component={helpTip} />

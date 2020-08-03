@@ -11,7 +11,7 @@ class NotFound extends React.Component {
                     Please click one of the links below:
                 </p>
                 <ul id="go-back">
-                    <li> <Link to="/Homepage.js">Home</Link></li>
+                    <li> <Link to="/">Home</Link></li>
                     <li> <Link to="/about">About the Team</Link> </li>
                     <li> <Link to="/contact">Contact Us</Link> </li>
                 </ul>

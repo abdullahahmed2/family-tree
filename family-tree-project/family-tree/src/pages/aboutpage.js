@@ -1,5 +1,6 @@
 import React from 'react';
-import NavBar from './nav.js';
+import Header from './Header.js';
+import Footer from './Footer.js';
 import { Link } from 'react-router-dom';
 import './pages.css';
 import Collapsible from 'react-collapsible';
@@ -9,7 +10,7 @@ class AboutPage extends React.Component {
     render() {
         return (
             <div>
-                <div> <NavBar /> </div>
+                <div> <Header /> </div>
                 <h1>About the Team</h1>
                 <div>
                     <ul id="project-team">
@@ -73,6 +74,8 @@ class AboutPage extends React.Component {
                             <p>UConn CS Student</p>
                             <a href="https://www.linkedin.com/in/usman-rahman-6a6086161/" target="_blank">Connect with Usman on LinkedIn!</a>
                             </Collapsible> </li>
+
+                          <Footer/>  
                     </ul>
                 </div>
             </div>
