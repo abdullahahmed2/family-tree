@@ -72,6 +72,7 @@ class RCName extends React.Component {
 
              <label for= "Female">Female:</label>&nbsp;
              <input type="radio" id="female" name="gender" value="female"></input> <br/><br/>
+
           </div>
 
 
