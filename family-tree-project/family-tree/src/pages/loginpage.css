@@ -2,17 +2,13 @@
   margin:0;
   padding:0;
 }
-body{
-  background-position: center;
-  font-family: sans-serif;
-}
 
 .login{
 font-weight: bolder;
 }
 
 .login-form{
-  background:#030529;
+  background:#354248;
   border-radius: 25px;
   width:100%;
   max-width: 500px;
@@ -20,6 +16,7 @@ font-weight: bolder;
   margin:10% auto;
   padding: 30px;
   color:white;
+  text-align: center;
 }
 
 
