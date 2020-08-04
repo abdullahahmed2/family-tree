@@ -63,15 +63,15 @@ class RCName extends React.Component {
 
            <div id="Gender">
 
-            <div className= "Gender">
-              <label> Gender </label> <br/>
-            </div>
+              <div className= "Gender">
+                <label> Gender </label> <br/>
+              </div>
 
-             <label for="gender">Male:</label>&nbsp;
-             <input type="radio" id="male" name="gender" value="male"></input>&nbsp; <br/>
+               <label for="gender">Male</label>&nbsp;
+               <input type="radio" id="male" name="gender" value="male"></input>&nbsp; <br/>
 
-             <label for= "Female">Female:</label>&nbsp;
-             <input type="radio" id="female" name="gender" value="female"></input> <br/><br/>
+               <label for= "Female">Female</label>&nbsp;
+               <input type="radio" id="female" name="gender" value="female"></input> <br/><br/>
 
           </div>
 

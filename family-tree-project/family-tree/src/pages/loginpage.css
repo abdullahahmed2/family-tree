@@ -3,9 +3,11 @@
   padding:0;
 }
 
-
-.login{
-font-weight: bolder;
+.login-form h1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+  font-style: italic;
 }
 
 .login-form{
@@ -26,6 +28,7 @@ font-weight: bolder;
   width:440px;
   margin: 5px auto;
   border-bottom: 2px solid #000;
+  border-radius: 8px;
   padding-bottom: 10px;
   padding-top: 10px;
   padding-left: 12px;
