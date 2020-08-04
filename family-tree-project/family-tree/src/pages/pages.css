@@ -1,12 +1,38 @@
 /*histoicalpages css*/
 .patnaimage1{
-  width: 2px;
-  height: 5px;
-  
+  width: 390px;
+  height: 300px;
+
 }
 
+.patnaimage2{
+  width: 300px;
+  height: 370px;
 
+}
+.patnaimage3{
+  width: 370px;
+  height: 300px;
 
+}
+
+.sherghatiimage1{
+  width: 350px;
+  height: 300px;
+
+}
+
+.sherghatiimage2{
+  width: 350px;
+  height: 330px;
+
+}
+
+.sherghatiimage3{
+  width: 350px;
+  height: 300px;
+
+}
 /*collapsible*/
 
 .Collapsible__trigger {
