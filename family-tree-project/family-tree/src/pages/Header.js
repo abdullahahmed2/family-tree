@@ -12,7 +12,7 @@ class Header extends React.Component{
         <header>
           <div className='container'>
             <div id ="branding">
-            <h1>SADAT-E-JAJNERI</h1>
+            <h1>SILSILA SADAT-E-BIHAR</h1>
             </div>
 
             <div className = "profile">
