@@ -12,9 +12,9 @@ class history extends React.Component {
         <body>
 
         <h3>Patna</h3>
-        <img id="patnaimage1" src=" https://www.lib.lsu.edu/sites/all/files/sc/exhibits/e-exhibits/india/px2d7.jpg " alt="Patna during British Occupation" />
-        <img id="patnaimage3" src=" https://www.nativeplanet.com/photos/original/2013/07/_13733583282.jpg " alt="Women surround Religious Monument" />
-        <img id="patnaimage4" src=" https://www.antiquemapsandprints.com/ekmps/shops/richben90/images/INDIA.-Patna-sketch-map-c1885-old-antique-vintage-plan-chart-222335-p.jpg " alt="Map of Patna" />
+        <img id="patnaimage1" src=" https://www.lib.lsu.edu/sites/all/files/sc/exhibits/e-exhibits/india/px2d7.jpg " alt="Patna during British Occupation" width="390" height="300"/>
+        <img id="patnaimage3" src=" https://www.nativeplanet.com/photos/original/2013/07/_13733583282.jpg " alt="Women surround Religious Monument" width="300" height="370"/>
+        <img id="patnaimage4" src=" https://www.antiquemapsandprints.com/ekmps/shops/richben90/images/INDIA.-Patna-sketch-map-c1885-old-antique-vintage-plan-chart-222335-p.jpg " alt="Map of Patna" width="370" height="300"/>
 
         <p>Patna is the capital city of the province Bihar, and is one of the
         oldest continuously inhabited places in the world. It was founded in 490 BCE under the name of Pataliputra
@@ -28,9 +28,9 @@ class history extends React.Component {
         <h3>Sherghati</h3>
 
 
-        <img id="sherghatiimage1" src=" https://www.gozocabs.com/blog/wp-content/uploads/2018/06/Sherghati.jpg " alt="Picture of Sherghati's landscape" />
-        <img id="sherghatiimage2" src=" https://upload.wikimedia.org/wikipedia/commons/a/a0/Shergotty_meteorite.jpg " alt="Picture of Shergotty meteorite" />
-        <img id="sherghatiimage3" src=" http://ogimages.bl.uk/images/019/019WDZ000002060U00037000[SVC1].jpg " alt="Picture of a drawing of a hills in Sherghati" />
+        <img id="sherghatiimage1" src=" https://www.gozocabs.com/blog/wp-content/uploads/2018/06/Sherghati.jpg " alt="Picture of Sherghati's landscape" width="350" height="300"/>
+        <img id="sherghatiimage2" src=" https://upload.wikimedia.org/wikipedia/commons/a/a0/Shergotty_meteorite.jpg " alt="Picture of Shergotty meteorite" width="350" height="330"/>
+        <img id="sherghatiimage3" src=" http://ogimages.bl.uk/images/019/019WDZ000002060U00037000[SVC1].jpg " alt="Picture of a drawing of a hills in Sherghati" width="350" height="300"/>
 
         <p> Sherghati is a town in Bihar, India in the Gaya district and is
         surrounded by the Morhar River. It translates to “The Valley of Lions”
