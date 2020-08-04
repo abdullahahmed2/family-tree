@@ -75,7 +75,7 @@ class AboutPage extends React.Component {
                             <a href="https://www.linkedin.com/in/usman-rahman-6a6086161/" target="_blank">Connect with Usman on LinkedIn!</a>
                             </Collapsible> </li>
 
-                          <Footer/>  
+                          <Footer/>
                     </ul>
                 </div>
             </div>

@@ -11,6 +11,8 @@ import homepage from './pages/Homepage.js';
 import Address from './components/address.js';
 import history from './pages/historicalplaces.js';
 import Login from './pages/loginpage.js';
+import ContentListTest from './pages/test-content-list.js';
+
 
 function App() {
 
@@ -27,6 +29,7 @@ function App() {
                 <Route exact path='/name' component={RCName} />
                 <Route exact path='/address' component={Address} />
                 <Route exact path='/historicalplaces' component={history} />
+                <Route exact path='/contentlist' component={ContentListTest} />
                 <Route exact path='/404' component={NotFound} />
                 <Redirect to='/404' />
             </Switch>
