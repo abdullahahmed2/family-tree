@@ -1,8 +1,5 @@
 /*historicalpages css*/
-.patnaimage1.jpg{
-  width: 50px;
-  height: 50px;
-}
+
 
 /*collapsible*/
 
@@ -32,7 +29,7 @@
    overflow: hidden;
    width: 400px;
    width: 350px;
-   height: 100px;
+   height: 200px;
    text-align: center;
    display: block;
    margin-left: auto;
