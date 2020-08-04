@@ -39,7 +39,7 @@ class AboutPage extends React.Component {
                             </Collapsible> </li>
 
                         <li><Collapsible trigger="Syed Fahad Ahmed">
-                            <p>Adaab!
+                            <p>Adaab!<br></br>
 Syed Fahad Ahmed is one of our main coders of Sadat-E-Janjneri.
 He is a passionate individual who is currently completing his last year of Alevel’s as pre-engineering student in Karachi.
 His interest lies within the Artificial Intelligence ambit and thrives to excel in his desired discipline. His contribution to this project has been consistent and remarkable and surely irreplaceable.</p>
@@ -52,7 +52,7 @@ His interest lies within the Artificial Intelligence ambit and thrives to excel 
                             </Collapsible> </li>
 
                         <li><Collapsible trigger="Yusra Ahmed">
-                            <p>Salam!
+                            <p>Salam!<br></br>
 Yusra Ahmed is an ambitious individual who is currently pursuing Chartered Accountancy. With her prior experience of marketing and advertising, her contribution to the project is to advertise and coordinate to ensure that Sadat-E-Janjneri is dealt professionally and reaches the audience in a pleasing manner. Moreover, with expertise in finance and managing, she aims to add value to our project.</p>
                             <a href="http://linkedin.com/in/yusra-ahmed-741504196" target="_blank">Connect with Yusra on LinkedIn!</a>
                             </Collapsible> </li>
@@ -71,7 +71,7 @@ Yusra Ahmed is an ambitious individual who is currently pursuing Chartered Accou
 
                         <li><Collapsible trigger="Ramiz Hassan">
                             <p>Ramiz Hassan</p>
-                            <a href="https://www.linkedin.com/" target="_blank">Connect with Ramiz on LinkedIn!</a>
+                            <a href="https://www.linkedin.com/in/syed-ramiz-hassan-3549721b3/" target="_blank">Connect with Ramiz on LinkedIn!</a>
                             </Collapsible> </li>
 
                         <li><Collapsible trigger="Usman Rahman">
