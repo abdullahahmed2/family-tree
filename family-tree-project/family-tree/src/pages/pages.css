@@ -1,6 +1,10 @@
 
 /*collapsible*/
 
+
+.Patna{
+  width: 50%;
+}
 .Collapsible__trigger {
     cursor: pointer;
     background-color: #777;
