@@ -12,7 +12,7 @@ class history extends React.Component {
         <h1>Historical Places</h1>
         <body>
 
-        <li><Collapsible trigger="Patna">
+        <Collapsible trigger="Patna" id="Patna">
         <img id="p4" src="/images/patnaimage4.jpg" alt="Map of Patna" width= "370" height= "300"/>
         <p>Patna is the capital city of the province Bihar, and is one of the
         oldest continuously inhabited places in the world. It was founded in 490 BCE under the name of Pataliputra
@@ -26,10 +26,10 @@ class history extends React.Component {
         <img id="p3" src="/images/patnaimage3.jpg" alt="Women surround Religious Monument" width= "300" height= "370"/>
         <p>Patna was the center of a lot of art and education and has been
         associated with two ancient religions, Buddhism and Jainism.</p>
-            </Collapsible></li>
+            </Collapsible>
 
 
-            <li><Collapsible trigger="Sherghati">
+            <Collapsible trigger="Sherghati">
             <img id="s3" src="/images/sherghatiimage3.jpg" alt="Drawing of a hills in Sherghati" width= "350" height= "300"/>
             <p> Sherghati is a town in Bihar, India in the Gaya district and is surrounded by the Morhar River. It translates to “The Valley of Lions”
             to honor the brave people that lived there. It was under the rule of the
@@ -42,7 +42,7 @@ class history extends React.Component {
             <p>In 1865, a meteorite from Mars landed in Sherghati,
             but was confiscated by colonisers and resides in a London museum as the
             “Shergotty meteorite”.</p>
-                </Collapsible></li>
+                </Collapsible>
 
 
         </body>

@@ -2,9 +2,6 @@
 /*collapsible*/
 
 
-.Patna{
-  width: 50%;
-}
 .Collapsible__trigger {
     cursor: pointer;
     background-color: #777;
@@ -28,7 +25,6 @@
 .Collapsible__contentInner {
    padding: 10px;
    overflow: hidden;
-   width: 400px;
    width: 350px;
    height: 200px;
    text-align: center;
@@ -37,7 +33,7 @@
    margin-right: auto;
    overflow: auto;
    background-color: #ebebeb;
-
+   vertical-align: middle;
 }
 
 .Collapsible__contentOuter {

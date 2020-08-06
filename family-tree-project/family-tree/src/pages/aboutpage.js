@@ -24,7 +24,7 @@ class AboutPage extends React.Component {
                     <b>Project Team</b>:
 
                         <li><Collapsible trigger="Ehsen Ahmad">
-                            <p>Ehsen is a first-year engineering student at Northeastern. He enjoys learning different CS languages and applying them in mini projects.</p>
+                            <p>Ehsen is a first-year engineering student at Northeastern. He enjoys learning different CS languages and applying them in mini projects. Ehsen contributed to the code aspect of our application.</p>
                             <a href="https://www.linkedin.com/in/ehsen-ahmad-7374921b3//" target="_blank">Connect with Ehsen on LinkedIn!</a>
                             </Collapsible></li>
 
