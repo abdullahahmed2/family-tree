@@ -1,0 +1,221 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+/*-------GLOBAL--------*/
+
+.box{
+  background: white;
+  margin: auto;
+  text-align: left;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 60%;
+  height: 60%;
+}
+
+#register{
+  background: #354248;
+  border: 5px solid;
+  border-radius: 40px;
+}
+
+
+#register h1{
+  text-align: center;
+  color: white;
+  padding-top: 35px;
+  padding-bottom:10px;
+  padding-left:0px;
+  padding-right:0px;
+  font-size: 55px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#register label{
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight:bolder;
+  font-style: normal;
+}
+
+
+/*-------NAME--------*/
+
+.name{
+padding-left: 15px;
+}
+
+#Fname{
+  width: 200px;
+  height: 15px;
+  outline: 0;
+  border: 1.5px solid;
+  border-radius: 7px;
+  padding-top: 18px;
+  padding-bottom:18px;
+  padding-left:7px;
+  padding-right:20px;
+
+}
+
+#Mname{
+  width: 200px;
+  height: 15px;
+  border: 1.5px solid;
+  border-radius: 7px;
+  outline: 0;
+  padding-top: 18px;
+  padding-bottom:18px;
+  padding-left:7px;
+  padding-right:20px;
+
+}
+
+#Lname{
+  width: 200px;
+  height: 15px;
+  border: 1.5px solid;
+  border-radius: 7px;
+  outline: 0;
+  padding-top: 18px;
+  padding-bottom:18px;
+  padding-left:7px;
+  padding-right:20px;
+  
+}
+
+
+/*-------DOB--------*/
+
+.DOB{
+padding-left: 15px;
+}
+
+#dob{
+  width: 200px;
+  border: 1.5px solid;
+  border-radius: 7px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left:7px;
+  padding-right:10px;
+}
+
+
+/*-------MOBILE NUMBER--------*/
+
+.number{
+padding-left: 15px;
+}
+
+#Mnum{
+  width: 200px;
+  border: 1.5px solid;
+  border-radius: 7px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left:7px;
+  padding-right:10px;
+}
+
+#phone{
+  border: 1.5px solid;
+  border-radius: 7px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left:3px;
+  padding-right:3px;
+}
+
+
+
+/*-------EMAIL--------*/
+
+.Email{
+padding-left: 15px;
+}
+
+#email{
+  width: 200px;
+  border: 1.5px solid;
+  border-radius: 7px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left:7px;
+  padding-right:10px;
+}
+
+
+
+/*-------PASSWORD--------*/
+
+.Password{
+padding-left: 15px;
+}
+
+#password{
+  width: 200px;
+  border: 1.5px solid;
+  border-radius: 7px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left:7px;
+  padding-right:10px;
+}
+
+#Rpassword{
+  width: 200px;
+  border: 1.5px solid;
+  border-radius: 7px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left:7px;
+  padding-right:10px;
+}
+
+
+
+/*-------GENDER--------*/
+
+#Gender{
+padding-left: 18px;
+}
+
+.Gender{
+padding-bottom: 10px;
+}
+
+
+
+.gender{
+  width: 200px;
+  color: white;
+}
+
+
+/*-------SUBMIT BUTTON--------*/
+
+.Submit{
+  padding-left: 355px;
+}
+
+.submit{
+  width: 200px;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 600;
+  border-radius: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 7px;
+  padding-left: 7px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
