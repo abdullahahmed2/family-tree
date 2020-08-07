@@ -31,7 +31,6 @@ function App() {
                 <Route exact path='/address' component={Address} />
                 <Route exact path='/historicalplaces' component={history} />
                 <Route exact path='/contentlist' component={ContentListTest} />
-                <Route exact path='/editprofile' component={Editprofile} />
                 <Route exact path='/testmodal' component={Testmodal} />
                 <Route exact path='/404' component={NotFound} />
                 <Redirect to='/404' />
