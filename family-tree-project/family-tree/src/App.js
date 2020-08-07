@@ -12,7 +12,8 @@ import Address from './components/address.js';
 import history from './pages/historicalplaces.js';
 import Login from './pages/loginpage.js';
 import ContentListTest from './pages/test-content-list.js';
-
+import Profiledd from './pages/profiledd.js';
+import Testmodal from './pages/testmodal.js';
 
 function App() {
 
@@ -30,6 +31,8 @@ function App() {
                 <Route exact path='/address' component={Address} />
                 <Route exact path='/historicalplaces' component={history} />
                 <Route exact path='/contentlist' component={ContentListTest} />
+                <Route exact path='/editprofile' component={Editprofile} />
+                <Route exact path='/testmodal' component={Testmodal} />
                 <Route exact path='/404' component={NotFound} />
                 <Redirect to='/404' />
             </Switch>
