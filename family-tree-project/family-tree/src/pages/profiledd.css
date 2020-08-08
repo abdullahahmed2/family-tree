@@ -1,10 +1,7 @@
-* {
-	margin: 0;
-	padding: 0;
-}
 .container {
   position: relative;
   display: inline-block;
+  
 }
 .button {
   padding: 0;
@@ -21,7 +18,7 @@
   position: absolute;
   top: 100%;
   left: 0;
-  width: 150px;
+  width: 300px;
   z-index: 2;
   border: 1px solid rgba(0, 0, 0, 0.04);
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14);
@@ -32,7 +29,6 @@ ul {
   padding: 0;
   margin: 0;
 }
-
 li {
   padding: 8px 12px;
 }
@@ -40,15 +36,4 @@ li {
 li:hover {
   background-color: rgba(0, 0, 0, 0.14);
   cursor: pointer;
-}
-
-#modal-btn{
-	background-color: white;
-	color: black;
-	font-size: 17px;
-}
-
-.#modal-btn:hover {
-	color: white;
-
 }
