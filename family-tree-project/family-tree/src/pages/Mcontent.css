@@ -6,7 +6,7 @@
 
 /*-------GLOBAL--------*/
 
-.box{
+.box1{
   background: white;
   margin: auto;
   text-align: left;
@@ -16,14 +16,14 @@
   padding-bottom: 60px;
 }
 
-#register{
+#editprofile{
   background: #354248;
   border: 5px solid;
   border-radius: 40px;
 }
 
 
-#register h1{
+#editprofile h1{
   text-align: center;
   color: white;
   padding-top: 35px;
@@ -35,7 +35,7 @@
   font-style: italic;
 }
 
-#register label{
+#editprofile label{
   color: white;
   font-family: sans-serif;
   font-size: 18px;
@@ -46,11 +46,11 @@
 
 /*-------NAME--------*/
 
-.name{
+.name1{
 padding-left: 15px;
 }
 
-#Fname{
+#Fname1{
   width: 200px;
   height: 15px;
   outline: 0;
@@ -63,7 +63,7 @@ padding-left: 15px;
 
 }
 
-#Mname{
+#Mname1{
   width: 200px;
   height: 15px;
   border: 1.5px solid;
@@ -76,7 +76,7 @@ padding-left: 15px;
 
 }
 
-#Lname{
+#Lname1{
   width: 200px;
   height: 15px;
   border: 1.5px solid;
@@ -92,11 +92,11 @@ padding-left: 15px;
 
 /*-------DOB--------*/
 
-.DOB{
+.DOB1{
 padding-left: 15px;
 }
 
-#dob{
+#dob1{
   width: 200px;
   border: 1.5px solid;
   border-radius: 7px;
@@ -109,11 +109,11 @@ padding-left: 15px;
 
 /*-------MOBILE NUMBER--------*/
 
-.number{
+.number1{
 padding-left: 15px;
 }
 
-#Mnum{
+#Mnum1{
   width: 200px;
   border: 1.5px solid;
   border-radius: 7px;
@@ -123,7 +123,7 @@ padding-left: 15px;
   padding-right:10px;
 }
 
-#phone{
+#phone1{
   border: 1.5px solid;
   border-radius: 7px;
   padding-top: 10px;
@@ -136,11 +136,11 @@ padding-left: 15px;
 
 /*-------EMAIL--------*/
 
-.Email{
+.Email1{
 padding-left: 15px;
 }
 
-#email{
+#email1{
   width: 200px;
   border: 1.5px solid;
   border-radius: 7px;
@@ -154,11 +154,11 @@ padding-left: 15px;
 
 /*-------PASSWORD--------*/
 
-.Password{
+.Password1{
 padding-left: 15px;
 }
 
-#password{
+#password1{
   width: 200px;
   border: 1.5px solid;
   border-radius: 7px;
@@ -168,7 +168,7 @@ padding-left: 15px;
   padding-right:10px;
 }
 
-#Rpassword{
+#Rpassword1{
   width: 200px;
   border: 1.5px solid;
   border-radius: 7px;
@@ -182,17 +182,17 @@ padding-left: 15px;
 
 /*-------GENDER--------*/
 
-#Gender{
+#Gender1{
 padding-left: 18px;
 }
 
-.Gender{
+.Gender1{
 padding-bottom: 10px;
 }
 
 
 
-.gender{
+.gender1{
   width: 200px;
   color: white;
 }
@@ -200,11 +200,11 @@ padding-bottom: 10px;
 
 /*-------SUBMIT BUTTON--------*/
 
-.Submit{
+.Submit1{
   padding-left: 355px;
 }
 
-.submit{
+.submit1{
   width: 200px;
   font-size: 15px;
   font-family: sans-serif;
