@@ -7,7 +7,7 @@ class ContentListTest extends React.Component{
         return (
             <div>
             <NavBar />
-                <h1>Example Using JSON Info</h1>
+                <h1>Example Using JSON File</h1>
                 {testData.map((data, index) => {
                     return <p>{data.country}</p>
                 })}
