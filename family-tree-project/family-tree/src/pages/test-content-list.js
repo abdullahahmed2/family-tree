@@ -6,11 +6,20 @@ class ContentListTest extends React.Component{
     render() {
         return (
             <div>
-            <NavBar />
+                <NavBar />
                 <h1>Example Using JSON File</h1>
-                {testData.map((data, index) => {
-                    return <p>{data.country}</p>
-                })}
+                <form>
+                    <label>
+                        Making Dropdown through Iteration
+                    </label><br />
+                        <select>
+                            {testData.map(data => (
+                                <option key={data.id} value={data.country}>
+                                    {data.country}
+                                </option>
+                            ))}
+                        </select>
+                </form>
             </div>
         )
     }
