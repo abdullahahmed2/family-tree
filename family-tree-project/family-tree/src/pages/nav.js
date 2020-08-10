@@ -1,6 +1,7 @@
 import React from 'react';
 import './pages.css';
 
+
 class NavBar extends React.Component {
     render () {
         return (
@@ -13,6 +14,8 @@ class NavBar extends React.Component {
                 <li><a href="/name">Register</a></li>
                 <li><a href="">Family Hierarchy</a></li>
                 <li><a href="/contentlist">Content List Test</a></li>
+                <li><a href="/testmodal">testmodal</a></li>
+
             </ul>
         )
     }

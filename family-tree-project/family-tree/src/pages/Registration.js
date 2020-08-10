@@ -1,5 +1,5 @@
 import React from 'react';
-import './RCName.css';
+import './Registration.css';
 
 class RCName extends React.Component {
   render() {

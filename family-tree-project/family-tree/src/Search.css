@@ -1,0 +1,40 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-image: url(https://www.psychologies.co.uk/sites/default/files/styles/psy2_page_header/public/field/image/family%20interaction.jpg);
+
+}
+.main{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,50%);
+  color:#000;
+}
+input{
+  position:relative;
+  display:in-inline-block;
+  font-size:20px;
+}
+.txt{
+  background:#fff;
+  width:340px;
+  height:40px;
+  border:none;
+  outline:none;
+  padding:0px 25px;
+  border-radius: 25px 0 0 25px;
+}
+input[type='submit']{
+  position:relative;
+  width:150px;
+  height:40px;
+  border:none;
+  outline:none;
+  background:rgb(0,0,255);
+  cursor:pointer;
+  color:#fff;
+  border-radius: 0 25px 25px 0;
+}
