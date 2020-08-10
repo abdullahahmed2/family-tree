@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch, Link, Redirect } from 'react-ro
 import ContactPage from './pages/contactpage.js';
 import AboutPage from './pages/aboutpage.js';
 import NotFound from './pages/notfoundpage.js';
-import RCName from './pages/RCName.js';
+import RCName from './pages/Registration.js';
 import hafsapage from './pages/hafsapage.js';
 import ehsenpage from './pages/ehsenpage.js';
 import helpTip from './components/helpicon.js';
