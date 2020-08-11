@@ -20,6 +20,7 @@ class AboutPage extends React.Component {
                             <a href="https://www.linkedin.com/in/shahina-rahman-81aa901b/" target="_blank">Connect with Shahina on LinkedIn!</a>
                             </Collapsible></li>
                     </ul>
+
                     <ul id="project-team">
                     <b>Project Team</b>:
                         {testData.map(data => (
