@@ -13,7 +13,11 @@ class history extends React.Component {
         <body>
 
         <Collapsible trigger="Patna" id="Patna">
+<<<<<<< HEAD
         <img id="p4" src={'/public/images/patnaimage1.jpg'} alt="Map of Patna" width= "100" height= "100"/>
+=======
+        <img id="p4" src="/images/patnaimage4.jpg" alt="Map of Patna" width= "370" height= "300"/>
+>>>>>>> e50e543cda8b778b5dfdb190867c66ee7410c507
         <p>Patna is the capital city of the province Bihar, and is one of the
         oldest continuously inhabited places in the world. It was founded in 490 BCE under the name of Pataliputra
         and borders the Ganges River.</p>
