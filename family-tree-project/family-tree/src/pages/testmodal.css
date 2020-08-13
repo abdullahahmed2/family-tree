@@ -4,24 +4,32 @@
 }
 
 .Testmodal{
-    width: 1000px;
-    height: 1000px;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 50;
+    background-color: #354248;
+    float: right;
+
+
 
 }
 
 .modalbody{
-    background-color: #fff;
     border-radius: 5;
-    max-width: 500;
-    min-height: 300;
     margin: 0 auto;
     padding: 30;
-    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.buttonopen{
+
+}
+
+.button{
+    width: 120px;
+    background: white;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 7px 0px 7px 0px;
+    text-align: center;
 }

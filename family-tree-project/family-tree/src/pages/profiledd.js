@@ -1,5 +1,6 @@
 import React from 'react';
 import "./profiledd.css";
+import Profile from './Profile.js';
 
 class Profiledd extends React.Component {
   container = React.createRef();
@@ -28,15 +29,16 @@ class Profiledd extends React.Component {
   };
   render() {
     return (
-      <div className="App">
+      <div className="dropdown">
         <div className="container" ref={this.container}>
-          <button type="button" class="button" onClick={this.handleButtonClick}>
-            ☰
+          <button type="button" className="button" onClick={this.handleButtonClick} >
+          <img src='https://www.pngitem.com/pimgs/m/293-2934409_index-search-box-drop-down-dropdown-arrow-gif.png' width='10' height='10'/>
+
           </button>
           {this.state.open && (
-            <div class="container" id="list">
+            <div className="container" id="list">
               <ul>
-                <li>Your Profile</li>
+                <li><a href='/profile'>Your Profile</a></li>
                 <li>Edit Profile</li>
                 <li>Logout</li>
               </ul>
