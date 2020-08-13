@@ -3,6 +3,7 @@ import './Homepage.css';
 import NavBar from './nav.js';
 import Profiledd from './profiledd.js';
 import Testmodal from './testmodal.js';
+import headerData from './header-content-list.json';
 
 class Header extends React.Component{
 		render() {
@@ -13,23 +14,26 @@ class Header extends React.Component{
         <header>
 
           <div className='container'>
-            <div id ="branding">
-            <h1>SILSILA SADAT-E-BIHAR</h1>
+
+						<div id ="brand">
+
+						{headerData.map(data => (
+								<h1 value={data.pageHeader}>
+										{data.pageHeader}
+								</h1>
+						))}
+
             </div>
 
             <div className = "profile">
             <a href=""> <img src=" https://www.innonet.org/media/blank-profile-picture.png " width= "40px" height= "40px" /> </a>
             </div>
+
           </div>
 
-		  
+
           <NavBar/>
-		  <Profiledd/>
-
-
-
-
-
+		  		<Profiledd/>
 
 
 
