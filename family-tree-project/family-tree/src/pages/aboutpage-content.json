@@ -1,7 +1,7 @@
 [
     {"id": "1",
       "name": "Ehsen Ahmad",
-      "description": "Ehsen is a first-year engineering student at Northeastern. He enjoys learning different CS languages and applying them in mini projects. Ehsen contributed to the code aspect of our application.",
+      "description": "Ehsen is a first-year engineering student at Northeastern University. He enjoys learning different CS languages and applying them in mini projects. Ehsen contributed to the code aspect of our application.",
       "LinkedIn": "https://www.linkedin.com/in/ehsen-ahmad-7374921b3"
     },
     {"id": "2",
@@ -11,8 +11,8 @@
     },
     {"id": "3",
       "name": "Muhammad Ahmed",
-      "description": "Muhammad Ahmed is a determined individual who paves his way through any given situation with hard work and utmost dedication. He is currently doing his O’levels in pre-engineering. Muhammad is one of our main coders of Sadat-e-Janjneri. His passion and knowledge of coding tends to add more value to the project.",
-      "LinkedIn": "https://www.linkedin.com/in/muhammad-ahmed-7161181b1/
+      "description": "Muhammad Ahmed is a determined individual who paves his way through any given situation with hard work and utmost dedication. He is currently doing his O levels in pre-engineering. Muhammad is one of our main coders of Sadat-e-Janjneri. His passion and knowledge of coding tends to add more value to the project.",
+      "LinkedIn": "https://www.linkedin.com/in/muhammad-ahmed-7161181b1/"
     },
     {"id": "4",
       "name": "Syed Fahad Ahmed",
@@ -41,7 +41,7 @@
     },
     {"id": "9",
       "name": "Ramiz Hassan",
-      "description": "Syed Ramiz Hassan is a freshman at uconn. He is an engineering major and will hopefully be part of the class of 2024. He has played an active role in coding during this project.",
+      "description": "Syed Ramiz Hassan is a freshman at University of Connecticut. He is an engineering major and will hopefully be part of the class of 2024. He has played an active role in coding during this project.",
       "LinkedIn": "https://www.linkedin.com/in/syed-ramiz-hassan-3549721b3/"
     },
     {"id": "10",
