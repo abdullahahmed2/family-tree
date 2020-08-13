@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header.js';
 import Footer from './Footer.js';
 import Collapsible from 'react-collapsible';
+import testData from './historicalpages.json';
 
 class history extends React.Component {
   render() {
@@ -23,6 +24,7 @@ class history extends React.Component {
                 </Collapsible></li>
         ))}
 
+        </body>
         <Footer/>
       </div>
     )
