@@ -13,7 +13,7 @@ import history from './pages/History-Page/historicalplaces.js';
 import Login from './pages/Login-Page/loginpage.js';
 import ContentListTest from './pages/test-content-list.js';
 import Profiledd from './components/profiledd.js';
-import Testmodal from './pages/testmodal.js';
+
 
 function App() {
 
@@ -30,7 +30,6 @@ function App() {
                 <Route exact path='/name' component={RCName} />
                 <Route exact path='/address' component={Address} />
                 <Route exact path='/historicalplaces' component={history} />
-                <Route exact path='/testmodal' component={Testmodal} />
                 <Route exact path='/profiledd' component={Profiledd} />
                 <Route exact path='/404' component={NotFound} />
                 <Redirect to='/404' />

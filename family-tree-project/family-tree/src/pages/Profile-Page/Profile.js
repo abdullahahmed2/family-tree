@@ -1,6 +1,6 @@
 import React from 'react';
 import './Profile.css';
-import Profiledata from './edit-profile-data.json';
+import Profiledata from './profiledata.json';
 
 class Profile extends React.Component {
 
@@ -48,20 +48,23 @@ class Profile extends React.Component {
                         placeholder='Last name'
                         value={profileinfo.LastName}
                         required/><br/><br/>
-                 </div>
+                </div>
 
 
 
-                 <div className= "DOB1">
-                        <label for='dob'>Date of Birth:</label><br/>
-                        <input
-                            type='date'
-                            name='date-of-birth'
-                            id='dob1'
-                            placeholder='dd/mm/yyyy'
-                            value={profileinfo.Dateofbirth}
-                            required/><br/><br/>
-                 </div>
+
+
+              <div className= "DOB1">
+                     <label for='dob'>Date of Birth:</label><br/>
+                     <input
+                         type='date'
+                         name='date-of-birth'
+                         id='dob1'
+                         placeholder='dd/mm/yyyy'
+                         value={profileinfo.Dateofbirth}
+                         required/><br/><br/>
+              </div>
+
 
 
 
