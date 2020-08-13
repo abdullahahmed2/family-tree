@@ -14,6 +14,8 @@ import Login from './pages/loginpage.js';
 import ContentListTest from './pages/test-content-list.js';
 import Profiledd from './pages/profiledd.js';
 import Profile from './pages/Profile';
+import ForgotID from './pages/forgotID.js';
+import Country from './components/country.js';
 
 
 function App() {
@@ -35,6 +37,8 @@ function App() {
                 <Route exact path='/profile' component={Profile} />
                 <Route exact path='/profiledd' component={Profiledd} />
                 <Route exact path='/404' component={NotFound} />
+                <Route exact path='/forgotID' component={ForgotID} />
+                <Route exact path='/country' component={Country} />
                 <Redirect to='/404' />
             </Switch>
         </Router>
