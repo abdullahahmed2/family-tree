@@ -1,11 +1,15 @@
 import React from 'react';
 import './Registration.css';
+import Header from "../Homepage/Header.js";
+import Footer from "../Homepage/Footer.js";
 
 class RCName extends React.Component {
   render() {
     return(
 
        <body>
+
+        <Header/>
 
         <div className="box">
 
@@ -81,6 +85,9 @@ class RCName extends React.Component {
           </div>
          </form>
        </div>
+
+       <Footer/>
+       
       </body>
     );
   }
