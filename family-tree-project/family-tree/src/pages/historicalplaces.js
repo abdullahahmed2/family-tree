@@ -16,11 +16,11 @@ class history extends React.Component {
         {testData.map(data => (
                 <li><Collapsible trigger = {data.name}>
                     <p>{data.description}</p>
-                    {data.image}
-                    <p>{data.description}</p>
-                    {data.image}
-                    <p>{data.description}</p>
-                    {data.image}
+                    <img src= {data.image1} />
+                    <p>{data.para}</p>
+                    <img src= {data.image2} />
+                    <p>{data.thing}</p>
+                    <img src= {data.image3} />
                 </Collapsible></li>
         ))}
 
@@ -29,6 +29,7 @@ class history extends React.Component {
       </div>
     )
   }
+
 }
 
 export default history;
