@@ -96,6 +96,9 @@ font-size: 19px;
 margin-left: 20px;
 background:#354248;
 }
+.CR p{
+	color : #807E7E;
+}
 .social .gmail{
   float:right;
   background:#354248;
