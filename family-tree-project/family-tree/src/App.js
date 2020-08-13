@@ -13,7 +13,7 @@ import history from './pages/History-Page/historicalplaces.js';
 import Login from './pages/Login-Page/loginpage.js';
 import ContentListTest from './pages/test-content-list.js';
 import Profiledd from './components/profiledd.js';
-
+import Profile from './pages/Profile-Page/Profile.js';
 
 function App() {
 
@@ -31,6 +31,7 @@ function App() {
                 <Route exact path='/address' component={Address} />
                 <Route exact path='/historicalplaces' component={history} />
                 <Route exact path='/profiledd' component={Profiledd} />
+                <Route exact path='/profile' component={Profile} />
                 <Route exact path='/404' component={NotFound} />
                 <Redirect to='/404' />
             </Switch>
