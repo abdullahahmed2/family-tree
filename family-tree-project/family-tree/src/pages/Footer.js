@@ -1,5 +1,6 @@
 import React from 'react';
 import './Homepage.css';
+import FooterData from "./footer-content-list.json";
 
 class Footer extends React.Component{
 		render() {
@@ -8,7 +9,16 @@ class Footer extends React.Component{
 <footer>
 
 		<div className = "CR">
-    Copyright &copy; 2020 SADAT-E-JAJNERI
+
+		Copyright &copy; 2020 SADAT-E-JAJNERI
+
+		{FooterData.map(data => (
+				<p value={data.pageFooter}>
+						{data.pageFooter}
+				</p>
+
+		))}
+
     </div>
 
 		<div className = "social">
