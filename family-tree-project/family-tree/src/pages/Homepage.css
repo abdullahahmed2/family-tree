@@ -38,13 +38,13 @@ header{
 	padding-top: 15px;
 
 }
-header #branding{
+header #brand{
 	float:left ;
 	padding-bottom: 0px;
 	padding-top: 15px;
 	margin-left: 270px;
 }
-header #branding h1{
+header #brand h1{
 	font-weight: bolder;
 	font-size: 55px;
 	margin-top: 0px;

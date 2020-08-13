@@ -1,21 +1,25 @@
 import React from 'react';
+import countries from './country-list.json';
+import './country.css';
 
 class Country extends React.Component{
-
-
   render() {
     return(
-      <body>
-        <div>
+      <div className='box'>
+        <form className='form'>
           <label>Choose a country:</label><br />
-          <select id='country' placeholder='country'>
-            <option>America</option>
-            <option>Pakistan</option>
+          <select>
+              {countries.map(data => (
+                <option key={data.id} value={data.name}>
+                  {data.name}
+                </option>
+            ))}
           </select>
-        </div>
+        </form>
 
-      </body>
+      </div>
     )
+
   }
 }
 

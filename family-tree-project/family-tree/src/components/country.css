@@ -1,0 +1,25 @@
+.box {
+  background:#354248;
+  border-radius: 25px;
+  width:100%;
+  max-width: 500px;
+  height:100%;
+  margin:10% auto;
+  padding: 30px;
+  color:white;
+  text-align: center;
+}
+
+.form{
+  width:440px;
+  margin: 5px auto;
+  border-radius: 8px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 12px;
+  color:black;
+}
+
+.form label{
+  color: white;
+}
