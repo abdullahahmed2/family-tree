@@ -1,6 +1,4 @@
 [
-    
-
     {"id": "1",
       "name": "Ehsen Ahmad",
       "description": "Ehsen is a first-year engineering student at Northeastern. He enjoys learning different CS languages and applying them in mini projects. Ehsen contributed to the code aspect of our application.",
@@ -23,7 +21,7 @@
     },
     {"id": "5",
       "name": "Usama Ahmed",
-      "description": "Usama Ahmed: CS Enthusiast",
+      "description": "Usama is a first year MBBS student at Dow International Medical College. He has played an active role in contributing to the planning phase of this project alongside the rest of the team. He is also a part of the team on the developing end and hopes to contribute as much as possible. ",
       "LinkedIn": "https://linkedin.com/in/usama-ameen-ahmed-4501001b1"
     },
     {"id": "6",
@@ -38,7 +36,7 @@
     },
     {"id": "8",
       "name": "Sofia Aleem",
-      "description": "Sofia Aleem: CS Enthusiast",
+      "description": "Sofia Aleem is a sophomore at the University of Michigan-Dearborn studying business and is a part of the graduating class of 2023. Her contributions include front-end coding and researching.",
       "LinkedIn": "https://www.linkedin.com/in/sofia-aleem-8b55a11a0/"
     },
     {"id": "9",
@@ -48,7 +46,7 @@
     },
     {"id": "10",
       "name": "Usman Rahman",
-      "description": "Usman Rahman: CS Enthusiast",
+      "description": "Usman is a second year computer science major studying at University of Connecticut.",
       "LinkedIn": "https://www.linkedin.com/in/usman-rahman-6a6086161/"
     }
 ]
