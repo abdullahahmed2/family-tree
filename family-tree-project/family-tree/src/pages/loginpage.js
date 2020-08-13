@@ -36,16 +36,16 @@ class Login extends Component{
              <FacebookLoginButton className='mt-3 mb-3'/>
 
              <div className = 'text-center'>
-               <a href ='#' className='text'>Sign Up?</a>
+               <a href ='/name' className='text'>Sign Up?</a>
                <span className='p-2'>|</span>
-               <a href='#' className='text'>Forgot Password?</a>
+               <a href='/forgotID' className='text'>Forgot Password?</a>
              </div>
 
            </FormGroup>
 
        </Form>
       </body>
-      
+
     )
   }
 }

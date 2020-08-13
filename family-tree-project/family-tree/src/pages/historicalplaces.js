@@ -12,7 +12,17 @@ class history extends React.Component {
         <h1>Historical Places</h1>
         <body>
 
-        <Collapsible trigger="Patna" id="Patna">
+        {testData.map(data => (
+                <li><Collapsible trigger = {data.name}>
+                    <p>{data.description}</p>
+                    {data.image}
+                    <p>{data.description}</p>
+                    {data.image}
+                    <p>{data.description}</p>
+                    {data.image}
+                </Collapsible></li>
+        ))}
+      {/*  <Collapsible trigger="Patna" id="Patna">
 
 
         <img id="p4" src="/images/patnaimage4.jpg" alt="Map of Patna" width= "240" height= "190"/>
@@ -49,7 +59,7 @@ class history extends React.Component {
 
 
         </body>
-
+*/}
         <Footer/>
       </div>
     )

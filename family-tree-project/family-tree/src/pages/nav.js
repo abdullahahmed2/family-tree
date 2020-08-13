@@ -14,7 +14,7 @@ class NavBar extends React.Component {
                 <li><a href="/name">Register</a></li>
                 <li><a href="">Family Hierarchy</a></li>
                 <li><a href="/contentlist">Content List Test</a></li>
-                <li><a href="/testmodal">testmodal</a></li>
+                <li><a href="/profile">Profile</a></li>
 
             </ul>
         )
