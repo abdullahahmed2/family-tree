@@ -20,7 +20,7 @@ const Testmodal = () => {
                         <Modal  isOpen={modalIsOpen} >
 
 
-                        
+
 
                         <div className='buttonclose'>
                             <button  onClick={() => setModalIsOpen(false)}>Close</button>
