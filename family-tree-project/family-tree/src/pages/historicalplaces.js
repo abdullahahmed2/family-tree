@@ -6,7 +6,7 @@ import testData from './historicalpages.json';
 
 class history extends React.Component {
   render() {
-    return(
+    return (
       <div>
         <div><Header/> </div>
 
@@ -24,10 +24,12 @@ class history extends React.Component {
                 </Collapsible></li>
         ))}
 
+        </body>
+        <Footer/>
+      </div>
     )
   }
 
-</body>
-</div>
 }
+
 export default history;
