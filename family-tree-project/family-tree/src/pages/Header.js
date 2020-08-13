@@ -25,15 +25,19 @@ class Header extends React.Component{
 
             </div>
 
-            <div className = "profile">
-            <a href=""> <img src=" https://www.innonet.org/media/blank-profile-picture.png " width= "40px" height= "40px" /> </a>
-            </div>
+
 
           </div>
 
+		  <Profiledd/>
+
+		  <div className = "profile">
+		  <a href=""> <img src=" https://www.innonet.org/media/blank-profile-picture.png " width= "40px" height= "40px" /> </a>
+		  </div>
+
 
           <NavBar/>
-		  		<Profiledd/>
+
 
 
 
