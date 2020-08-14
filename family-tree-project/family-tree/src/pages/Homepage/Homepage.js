@@ -17,7 +17,7 @@ class homepage extends React.Component{
 							<section id="text">
 								<div className="container">
 								<h2>where life begins</h2>
-								<h1>AND NEVER ENDS.</h1>
+								<h1>AND NEVER ENDS</h1>
 								</div>
 							</section>
 						</section>
