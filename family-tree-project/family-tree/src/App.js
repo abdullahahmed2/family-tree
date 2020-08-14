@@ -4,7 +4,6 @@ import ContactPage from './pages/Contact-Page/contactpage.js';
 import AboutPage from './pages/About-Page/aboutpage.js';
 import NotFound from './pages/notfoundpage.js';
 import RCName from './pages/Registration-Page/Registration.js';
-import hafsapage from './pages/hafsapage.js';
 import ehsenpage from './pages/ehsenpage.js';
 import helpTip from './components/helpicon.js';
 import homepage from './pages/Homepage/Homepage.js';
