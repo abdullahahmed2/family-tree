@@ -102,7 +102,10 @@ class Profile extends React.Component {
 
 
                   <div className="Submit1">
-                     <input type="submit" value="Save Changes" className="submit1" />
+                     <input
+                         type="submit"
+                         value="Save Changes"
+                         className="submit1" />
                   </div>
 
          </form>

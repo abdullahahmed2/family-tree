@@ -6,7 +6,13 @@
     "image2": "./images/patnaimage1.jpg",
     "para": "This city has played a big role in India historically, being a significant  territory during the Delhi Sultanate, Mughul Empire, Nawabs of Bengal, East India Company, and the British Raj. Patna was the center of the First War of Independence and actively participated in India's independence movement. ",
     "image3": "./images/patnaimage3.jpg",
-    "thing": "Patna was the center of a lot of art and education and has been associated with two ancient religions, Buddhism and Jainism."
+    "thing": "Patna was the center of a lot of art and education and has been associated with two ancient religions, Buddhism and Jainism.",
+    "width1": "240",
+    "height1": "190",
+    "width2": "250",
+    "height2": "200",
+    "width3": "150",
+    "height3": "180"
   },
   {"id": "2",
     "name": "Sherghati",
@@ -15,6 +21,12 @@
     "image2": "/images/sherghatiimage1.jpg",
     "para": "Their main industry is agriculturally based, the major crops grown are rice, wheat, legume, groundnut, and sugarcane.",
     "image3": "./images/sherghatiimage2.jpg",
-    "thing": "In 1865, a meteorite from Mars landed in Sherghati, but was confiscated by colonisers and resides in a London museum as the “Shergotty meteorite”."
+    "thing": "In 1865, a meteorite from Mars landed in Sherghati, but was confiscated by colonisers and resides in a London museum as the “Shergotty meteorite”.",
+    "width1": "150",
+    "height1": "130",
+    "width2": "230",
+    "height2": "130",
+    "width3": "150",
+    "height3": "130"
   }
 ]
