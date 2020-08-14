@@ -4,13 +4,11 @@ import ContactPage from './pages/Contact-Page/contactpage.js';
 import AboutPage from './pages/About-Page/aboutpage.js';
 import NotFound from './pages/notfoundpage.js';
 import RCName from './pages/Registration-Page/Registration.js';
-import ehsenpage from './pages/ehsenpage.js';
 import helpTip from './components/helpicon.js';
 import homepage from './pages/Homepage/Homepage.js';
 import Address from './components/address.js';
 import history from './pages/History-Page/historicalplaces.js';
 import Login from './pages/Login-Page/loginpage.js';
-import ContentListTest from './pages/test-content-list.js';
 import Profiledd from './components/profiledd.js';
 import Profile from './pages/Profile-Page/Profile.js';
 
