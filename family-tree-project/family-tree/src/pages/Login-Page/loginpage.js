@@ -3,11 +3,17 @@ import './loginpage.css';
 import {Button, Form, FormGroup, Label, Input}
     from 'reactstrap';
 import {FacebookLoginButton} from 'react-social-login-buttons';
+import Header from "../Homepage/Header.js";
+import Footer from "../Homepage/Footer.js";
+
+
 class Login extends Component{
   render(){
     return(
 
       <body>
+
+        <Header/>
 
        <Form className ='login-form'>
            <h1 className='login'> Log In </h1>
@@ -44,6 +50,9 @@ class Login extends Component{
            </FormGroup>
 
        </Form>
+
+       <Footer/>
+
       </body>
 
     )

@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Testmodal{
+    background-color: #354248;
+    float: right;
+
+
+
+}
+
+.modalbody{
+    border-radius: 5;
+    margin: 0 auto;
+    padding: 30;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.buttonopen{
+
+}
+
+.button{
+    width: 120px;
+    background: white;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 7px 0px 7px 0px;
+    text-align: center;
+}

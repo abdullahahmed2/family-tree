@@ -12,12 +12,6 @@ class Footer extends React.Component{
 
 		Copyright &copy; 2020 SADAT-E-JAJNERI
 
-		{FooterData.map(data => (
-				<p value={data.pageFooter}>
-						{data.pageFooter}
-				</p>
-
-		))}
 
     </div>
 

@@ -1,22 +1,19 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Link, Redirect } from 'react-router-dom';
-import ContactPage from './pages/contactpage.js';
-import AboutPage from './pages/aboutpage.js';
+import ContactPage from './pages/Contact-Page/contactpage.js';
+import AboutPage from './pages/About-Page/aboutpage.js';
 import NotFound from './pages/notfoundpage.js';
-import RCName from './pages/Registration.js';
+import RCName from './pages/Registration-Page/Registration.js';
 import hafsapage from './pages/hafsapage.js';
 import ehsenpage from './pages/ehsenpage.js';
 import helpTip from './components/helpicon.js';
-import homepage from './pages/Homepage.js';
+import homepage from './pages/Homepage/Homepage.js';
 import Address from './components/address.js';
-import history from './pages/historicalplaces.js';
-import Login from './pages/loginpage.js';
+import history from './pages/History-Page/historicalplaces.js';
+import Login from './pages/Login-Page/loginpage.js';
 import ContentListTest from './pages/test-content-list.js';
-import Profiledd from './pages/profiledd.js';
-import Profile from './pages/Profile';
-import ForgotID from './pages/forgotID.js';
-import Country from './components/country.js';
-
+import Profiledd from './components/profiledd.js';
+import Profile from './pages/Profile-Page/Profile.js';
 
 function App() {
 
@@ -33,12 +30,9 @@ function App() {
                 <Route exact path='/name' component={RCName} />
                 <Route exact path='/address' component={Address} />
                 <Route exact path='/historicalplaces' component={history} />
-                <Route exact path='/contentlist' component={ContentListTest} />
-                <Route exact path='/profile' component={Profile} />
                 <Route exact path='/profiledd' component={Profiledd} />
+                <Route exact path='/profile' component={Profile} />
                 <Route exact path='/404' component={NotFound} />
-                <Route exact path='/forgotID' component={ForgotID} />
-                <Route exact path='/country' component={Country} />
                 <Redirect to='/404' />
             </Switch>
         </Router>

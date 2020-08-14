@@ -86,9 +86,6 @@
     color: #069;
 }
 
-#nav .current a{
-	color:red;
-}
 
 #nav a:hover{
 	color:red;

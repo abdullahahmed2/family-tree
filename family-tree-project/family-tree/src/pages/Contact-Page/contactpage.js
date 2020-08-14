@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './Header.js';
-import Footer from './Footer.js';
-import './pages.css';
+import Header from '../Homepage/Header.js';
+import Footer from '../Homepage/Footer.js';
+import '../pages.css';
 
 class ContactPage extends React.Component {
     render() {

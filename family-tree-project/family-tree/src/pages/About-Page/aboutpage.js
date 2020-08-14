@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './Header.js';
-import Footer from './Footer.js';
+import Header from '../Homepage/Header.js';
+import Footer from '../Homepage/Footer.js';
 import { Link } from 'react-router-dom';
-import './pages.css';
+import '../pages.css';
 import Collapsible from 'react-collapsible';
 import testData from './aboutpage-content.json';
 
