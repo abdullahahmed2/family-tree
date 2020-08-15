@@ -12,7 +12,7 @@ import Profiledd from './components/Profile-DropDown-Component/profiledd.js';
 import Profile from './pages/Profile-Page/Profile.js';
 import helpTip from './components/HelpIcon-Component/helpicon.js';
 import NotFound from './pages/notfoundpage.js';
-import Country from './components/country.js';
+import Country from './components/Country-DropDown-Component/country.js';
 import ForgotID from './pages/ForgotID/forgotID.js';
 function App() {
 
