@@ -1,6 +1,6 @@
 import React from 'react';
-import "./profiledd.css";
-import Profile from '../pages/Profile-Page/Profile.js';
+import "../Profile-DropDown-Component/profiledd.css";
+import Profile from '../../pages/Profile-Page/Profile.js';
 
 class Profiledd extends React.Component {
   containerprofile = React.createRef();

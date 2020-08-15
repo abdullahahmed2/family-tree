@@ -6,13 +6,13 @@ import Login from './pages/Login-Page/loginpage.js';
 import ContactPage from './pages/Contact-Page/contactpage.js';
 import AboutPage from './pages/About-Page/aboutpage.js';
 import RCName from './pages/Registration-Page/Registration.js';
-import Address from './components/address.js';
+import Address from './components/Address-Component/address.js';
 import history from './pages/History-Page/historicalplaces.js';
-import Profiledd from './components/profiledd.js';
+import Profiledd from './components/Profile-DropDown-Component/profiledd.js';
 import Profile from './pages/Profile-Page/Profile.js';
-import helpTip from './components/helpicon.js';
+import helpTip from './components/HelpIcon-Component/helpicon.js';
 import NotFound from './pages/notfoundpage.js';
-import Country from './components/country.js';
+import Country from './components/Country-DropDown-Component/country.js';
 import ForgotID from './pages/ForgotID/forgotID.js';
 function App() {
 
