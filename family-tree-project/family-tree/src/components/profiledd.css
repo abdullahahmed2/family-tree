@@ -8,6 +8,12 @@
 
 .containerprofile {
   position: relative;
+
+}
+.container1{
+  position: relative;
+  display: inline-block;
+
 }
 
 #list{
