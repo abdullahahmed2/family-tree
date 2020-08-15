@@ -35,16 +35,20 @@ class Profiledd extends React.Component {
           <img src='https://www.pngitem.com/pimgs/m/293-2934409_index-search-box-drop-down-dropdown-arrow-gif.png' width='10' height='10'/>
           </button>
           {this.state.open && (
-            <div className="containerprofile" id="list">
-              <ul>
-                <li><a href='/profile'>Your Profile</a></li>
-                <li>Edit Profile</li>
-                <li>Logout</li>
-              </ul>
-            </div>
-          )}
+                <div className="containerprofile" id="list">
+                  <ul>
+                    <li><a href='/profile'>Your Profile</a></li>
+                    <li>Edit Profile</li>
+                    <li>Logout</li>
+                  </ul>
+                </div>
+            )}
         </div>
       </div>
+<<<<<<< Updated upstream
+=======
+     
+>>>>>>> Stashed changes
     );
   }
 }

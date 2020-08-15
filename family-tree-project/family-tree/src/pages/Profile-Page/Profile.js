@@ -11,12 +11,15 @@ class Profile extends React.Component {
 
        <body>
 
-       <Header/>
+            <Header/>
 
 
           <form method='post' id='editprofile' action=''>
 
-              <h1 className='profileHeader'> Profile </h1> <br/><br/>
+
+                    <h1>Profile </h1><br/><br/>
+
+
 
 
                   <div className="nameprofile">

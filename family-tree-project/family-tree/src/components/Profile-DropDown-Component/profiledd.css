@@ -13,13 +13,13 @@
 }
 
 .containerprofile {
-  position: relative;
+    position: relative;
+
 }
 
 #list{
     width: 150px;
     background-color: #fff;
-    padding-left: 0px;
 }
 
 .button {
