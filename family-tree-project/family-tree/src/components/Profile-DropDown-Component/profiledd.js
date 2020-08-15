@@ -45,7 +45,6 @@ class Profiledd extends React.Component {
           )}
         </div>
       </div>
-     </div>
     );
   }
 }
