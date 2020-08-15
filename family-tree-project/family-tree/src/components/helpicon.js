@@ -1,4 +1,5 @@
 import React from 'react';
+import testData from './helpicon.json';
 
 class helpTip extends React.Component {
   render() {
@@ -8,19 +9,23 @@ class helpTip extends React.Component {
           Help
           </button>
           <script>
-          function helptip(){
-            alert("Username Requirements:\n"+
-            "less than 20 characters \n"+
-            "\n"+
-            "Password Requirements: \n"+
-            "At least 1 uppercase letter \n"+
-            "Minimum of 8 characters \n"+
-            "Maximum of 15 characters")
+          function helptip()
+            {testData.map(data => (
+            alert(
+            <div>
+            {data.subject}
+            {data.content}
+            {data.subject}
+            {data.content}
+            {data.content}
+            {data.content}
+            </div>
+            )
+            ))}
           }
           </script>
         </div>
     )
   }
 }
-
 export default helpTip
