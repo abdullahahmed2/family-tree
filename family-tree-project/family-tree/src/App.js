@@ -12,8 +12,8 @@ import Profiledd from './components/Profile-DropDown-Component/profiledd.js';
 import Profile from './pages/Profile-Page/Profile.js';
 import helpTip from './components/HelpIcon-Component/helpicon.js';
 import NotFound from './pages/notfoundpage.js';
-
-
+import Country from './components/country.js';
+import ForgotID from './pages/ForgotID/forgotID.js';
 function App() {
 
   return (
@@ -31,6 +31,8 @@ function App() {
                 <Route exact path='/profiledd' component={Profiledd} />
                 <Route exact path='/profile' component={Profile} />
                 <Route exact path='/helpicon' component={helpTip} />
+                <Route exact path='/country' component={Country} />
+                <Route exact path='/forgot' component={ForgotID} />
                 <Route exact path='/404' component={NotFound} />
                 <Redirect to='/404' />
             </Switch>
