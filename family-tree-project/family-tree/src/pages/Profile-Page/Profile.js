@@ -1,6 +1,6 @@
 import React from 'react';
 import './Profile.css';
-import Profiledata from './profiledata.json';
+
 
 class Profile extends React.Component {
 
@@ -9,23 +9,23 @@ class Profile extends React.Component {
 
        <body>
 
-       {Profiledata.map(profileinfo => (
-        <div className="box1">
+       {Profiledata.map(profileinfo  => (
+        <div className="boxprofile">
 
           <form method='post' id='editprofile' action=''>
 
               <h1> Profile </h1> <br/><br/>
 
 
-                  <div className="name1">
+                  <div className="nameprofile">
                     <label for='Fname'>Name:</label><br/>
 
 
                     <input
                         type='text'
                         name='Firstname'
-                        id='Fname1'
-                        maxLength={10}
+                        id='Fnameprofile'
+                        maxLength={15}
                         placeholder='First name'
                         value={profileinfo.FirstName}
                         required /><br/><br/>
@@ -34,8 +34,8 @@ class Profile extends React.Component {
                     <input
                         type='text'
                         name='Middlename'
-                        id='Mname1'
-                        maxLength={10}
+                        id='Mnameprofile'
+                        maxLength={15}
                         placeholder='Middle name'
                         value={profileinfo.MiddleName}
                         required/><br/><br/>
@@ -43,8 +43,8 @@ class Profile extends React.Component {
                     <input
                         type='text'
                         name='Lastname'
-                        id='Lname1'
-                        maxLength={10}
+                        id='Lnameprofile'
+                        maxLength={15}
                         placeholder='Last name'
                         value={profileinfo.LastName}
                         required/><br/><br/>
@@ -54,12 +54,12 @@ class Profile extends React.Component {
 
 
 
-              <div className= "DOB1">
+              <div className= "DOBprofile">
                      <label for='dob'>Date of Birth:</label><br/>
                      <input
                          type='date'
                          name='date-of-birth'
-                         id='dob1'
+                         id='dobprofile'
                          placeholder='dd/mm/yyyy'
                          value={profileinfo.Dateofbirth}
                          required/><br/><br/>
@@ -68,10 +68,10 @@ class Profile extends React.Component {
 
 
 
-                   <div className="number1">
+                   <div className="numberprofile">
                         <label for="Mnum">Mobile number: </label><br/>
                         <select
-                            id='phone1'
+                            id='phoneprofile'
                             value={profileinfo.Countrycode}>
                           <option>+92</option>
                           <option>+1</option>
@@ -80,7 +80,7 @@ class Profile extends React.Component {
                             type='tel'
                             placeholder='Mobile number'
                             name='Mobile number'
-                            id='Mnum1'
+                            id='Mnumprofile'
                             maxLength={10}
                             value={profileinfo.MobileNumber}
                             required ></input><br/><br/>
@@ -88,12 +88,12 @@ class Profile extends React.Component {
 
 
 
-                   <div className="Email1">
+                   <div className="Emailprofile">
                         <label for="email">Email: </label><br />
                         <input
                             type='Email'
                             name='email'
-                            id='email1'
+                            id='emailprofile'
                             placeholder='example@gmail.com'
                             value={profileinfo.Email}
                             required></input><br/><br />
@@ -101,11 +101,11 @@ class Profile extends React.Component {
 
 
 
-                  <div className="Submit1">
+                  <div className="Submitprofile">
                      <input
                          type="submit"
                          value="Save Changes"
-                         className="submit1" />
+                         className="submitprofile" />
                   </div>
 
          </form>
@@ -115,6 +115,7 @@ class Profile extends React.Component {
     );
   }
 }
+
 
 
 
