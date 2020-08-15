@@ -45,10 +45,6 @@ class Profiledd extends React.Component {
             )}
         </div>
       </div>
-<<<<<<< Updated upstream
-=======
-     
->>>>>>> Stashed changes
     );
   }
 }
