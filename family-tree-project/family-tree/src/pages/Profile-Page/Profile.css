@@ -6,58 +6,56 @@
 
 /*-------GLOBAL--------*/
 
-.box1{
-  background: white;
+.boxprofile{
+  background: #277ef9;
   margin: auto;
-  text-align: left;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  width: 60%;
-  height: 60%;
+
+  width: 100%;
+  height: 100%;
+  padding: 20px;
 }
 
 #editprofile{
-  background: #354248;
-  border: 5px solid;
-  border-radius: 40px;
+  background: #277ef9;
+  text-align: left;
+
 }
 
 
 #editprofile h1{
-  text-align: center;
-  color: white;
+  text-align: left;
+  color: black;
   padding-top: 35px;
   padding-bottom:10px;
-  padding-left:0px;
+  padding-left:15px;
   padding-right:0px;
   font-size: 55px;
   font-weight: bold;
   font-style: italic;
+  background: white;
 }
 
 #editprofile label{
-  color: white;
+  color: #ffffff;
   font-family: sans-serif;
   font-size: 18px;
   font-weight:bolder;
   font-style: normal;
+
 }
 
 
 /*-------NAME--------*/
 
-.name1{
+.nameprofile{
 padding-left: 15px;
 }
 
-#Fname1{
+#Fnameprofile{
   width: 200px;
   height: 15px;
   outline: 0;
   border: 1.5px solid;
-  border-radius: 7px;
   padding-top: 18px;
   padding-bottom:18px;
   padding-left:7px;
@@ -65,11 +63,10 @@ padding-left: 15px;
 
 }
 
-#Mname1{
+#Mnameprofile{
   width: 200px;
   height: 15px;
   border: 1.5px solid;
-  border-radius: 7px;
   outline: 0;
   padding-top: 18px;
   padding-bottom:18px;
@@ -78,11 +75,10 @@ padding-left: 15px;
 
 }
 
-#Lname1{
+#Lnameprofile{
   width: 200px;
   height: 15px;
   border: 1.5px solid;
-  border-radius: 7px;
   outline: 0;
   padding-top: 18px;
   padding-bottom:18px;
@@ -94,14 +90,13 @@ padding-left: 15px;
 
 /*-------DOB--------*/
 
-.DOB1{
+.DOBprofile{
 padding-left: 15px;
 }
 
-#dob1{
+#dobprofile{
   width: 200px;
   border: 1.5px solid;
-  border-radius: 7px;
   padding-top: 10px;
   padding-bottom:10px;
   padding-left:7px;
@@ -111,41 +106,48 @@ padding-left: 15px;
 
 /*-------MOBILE NUMBER--------*/
 
-.number1{
+.numberprofile{
 padding-left: 15px;
+
 }
 
-#Mnum1{
+
+#Mnumprofile{
   width: 200px;
-  border: 1.5px solid;
-  border-radius: 7px;
+  border-top: 1.5px solid;
+  border-right: 1.5px solid;
+  border-bottom: 1.5px solid;
+  border-left: 1.5px solid;
   padding-top: 10px;
   padding-bottom:10px;
   padding-left:7px;
   padding-right:10px;
+
 }
 
-#phone1{
-  border: 1.5px solid;
-  border-radius: 7px;
+#phoneprofile{
+  border-top: 1.5px solid;
+  border-left: 1.5px solid;
+  border-bottom: 1.5px solid;
+  border-right: 0px;
   padding-top: 10px;
   padding-bottom:10px;
   padding-left:3px;
   padding-right:3px;
+  height: 47px;
 }
 
 
 
 /*-------EMAIL--------*/
 
-.Email1{
+.Emailprofile{
 padding-left: 15px;
 }
 
-#email1{
+#emailprofile{
   width: 200px;
   border: 1.5px solid;
-  border-radius: 7px;
   padding-top: 10px;
   padding-bottom:10px;
   padding-left:7px;
@@ -156,24 +158,22 @@ padding-left: 15px;
 
 /*-------PASSWORD--------*/
 
-.Password1{
+.Passwordprofile{
 padding-left: 15px;
 }
 
-#password1{
+#passwordprofile{
   width: 200px;
   border: 1.5px solid;
-  border-radius: 7px;
   padding-top: 10px;
   padding-bottom:10px;
   padding-left:7px;
   padding-right:10px;
 }
 
-#Rpassword1{
+#Rpasswordprofile{
   width: 200px;
   border: 1.5px solid;
-  border-radius: 7px;
   padding-top: 10px;
   padding-bottom:10px;
   padding-left:7px;
@@ -184,17 +184,17 @@ padding-left: 15px;
 
 /*-------GENDER--------*/
 
-#Gender1{
+#Genderprofile{
 padding-left: 18px;
 }
 
-.Gender1{
+.Genderprofile{
 padding-bottom: 10px;
 }
 
 
 
-.gender1{
+.genderprofile{
   width: 200px;
   color: white;
 }
@@ -202,16 +202,15 @@ padding-bottom: 10px;
 
 /*-------SUBMIT BUTTON--------*/
 
-.Submit1{
+.Submitprofile{
   padding-left: 200px;
 }
 
-.submit1{
+.submitprofile{
   width: 200px;
   font-size: 15px;
   font-family: sans-serif;
   font-weight: 600;
-  border-radius: 10px;
   padding-top: 7px;
   padding-bottom: 7px;
   padding-right: 7px;

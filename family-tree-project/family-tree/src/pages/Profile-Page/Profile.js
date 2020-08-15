@@ -1,5 +1,7 @@
 import React from 'react';
 import './Profile.css';
+import Header from '../Homepage/Header.js';
+import Footer from '../Homepage/Footer.js';
 
 
 class Profile extends React.Component {
@@ -9,12 +11,12 @@ class Profile extends React.Component {
 
        <body>
 
+       <Header/>
 
-        <div className="boxprofile">
 
           <form method='post' id='editprofile' action=''>
 
-              <h1> Profile </h1> <br/><br/>
+              <h1 className='profileHeader'> Profile </h1> <br/><br/>
 
 
                   <div className="nameprofile">
@@ -27,7 +29,7 @@ class Profile extends React.Component {
                         id='Fnameprofile'
                         maxLength={15}
                         placeholder='First name'
-                        required /><br/><br/>
+                        required />
 
 
                     <input
@@ -36,7 +38,7 @@ class Profile extends React.Component {
                         id='Mnameprofile'
                         maxLength={15}
                         placeholder='Middle name'
-                        required/><br/><br/>
+                        required/>
 
                     <input
                         type='text'
@@ -65,9 +67,8 @@ class Profile extends React.Component {
 
 
                    <div className="numberprofile">
-                        <label for="Mnum">Mobile number: </label><br/>
-                        <select
-                            id='phoneprofile'>
+                        <label for="Mnumprofile">Mobile number: </label><br/>
+                        <select id='phoneprofile'>
                           <option>+92</option>
                           <option>+1</option>
                         </select>
@@ -102,7 +103,8 @@ class Profile extends React.Component {
                   </div>
 
          </form>
-       </div>
+
+       <Footer/>
       </body>
     );
   }

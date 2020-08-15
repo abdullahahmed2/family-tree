@@ -31,7 +31,6 @@ class Profiledd extends React.Component {
     return (
       <div className="dropdown">
         <div className="containerprofile" ref={this.containerprofile}>
-        <div className="container1" ref={this.container}>
           <button type="button" className="button" onClick={this.handleButtonClick} >
           <img src='https://www.pngitem.com/pimgs/m/293-2934409_index-search-box-drop-down-dropdown-arrow-gif.png' width='10' height='10'/>
           </button>

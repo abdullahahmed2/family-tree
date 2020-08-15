@@ -1,24 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 .dropdown {
   width: 200px;
   float: right;
   position: relative;
   padding-top: 20px;
 
+
 }
 
 .containerprofile {
   position: relative;
-
-}
-.container1{
-  position: relative;
-  display: inline-block;
-
 }
 
 #list{
     width: 150px;
     background-color: #fff;
+    padding-left: 0px;
 }
 
 .button {
