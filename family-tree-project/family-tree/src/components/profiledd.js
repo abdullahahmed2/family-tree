@@ -30,14 +30,10 @@ class Profiledd extends React.Component {
   render() {
     return (
       <div className="dropdown">
-<<<<<<< Updated upstream
         <div className="containerprofile" ref={this.containerprofile}>
-=======
         <div className="container1" ref={this.container}>
->>>>>>> Stashed changes
           <button type="button" className="button" onClick={this.handleButtonClick} >
           <img src='https://www.pngitem.com/pimgs/m/293-2934409_index-search-box-drop-down-dropdown-arrow-gif.png' width='10' height='10'/>
-
           </button>
           {this.state.open && (
             <div className="containerprofile" id="list">
@@ -50,6 +46,7 @@ class Profiledd extends React.Component {
           )}
         </div>
       </div>
+     </div>
     );
   }
 }
