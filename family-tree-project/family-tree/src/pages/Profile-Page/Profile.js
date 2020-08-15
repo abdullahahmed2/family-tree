@@ -9,7 +9,7 @@ class Profile extends React.Component {
 
        <body>
 
-       {Profiledata.map(profileinfo  => (
+
         <div className="boxprofile">
 
           <form method='post' id='editprofile' action=''>
@@ -27,7 +27,6 @@ class Profile extends React.Component {
                         id='Fnameprofile'
                         maxLength={15}
                         placeholder='First name'
-                        value={profileinfo.FirstName}
                         required /><br/><br/>
 
 
@@ -37,7 +36,6 @@ class Profile extends React.Component {
                         id='Mnameprofile'
                         maxLength={15}
                         placeholder='Middle name'
-                        value={profileinfo.MiddleName}
                         required/><br/><br/>
 
                     <input
@@ -46,7 +44,6 @@ class Profile extends React.Component {
                         id='Lnameprofile'
                         maxLength={15}
                         placeholder='Last name'
-                        value={profileinfo.LastName}
                         required/><br/><br/>
                 </div>
 
@@ -61,7 +58,6 @@ class Profile extends React.Component {
                          name='date-of-birth'
                          id='dobprofile'
                          placeholder='dd/mm/yyyy'
-                         value={profileinfo.Dateofbirth}
                          required/><br/><br/>
               </div>
 
@@ -72,7 +68,6 @@ class Profile extends React.Component {
                         <label for="Mnum">Mobile number: </label><br/>
                         <select
                             id='phoneprofile'
-                            value={profileinfo.Countrycode}>
                           <option>+92</option>
                           <option>+1</option>
                         </select>
@@ -82,7 +77,6 @@ class Profile extends React.Component {
                             name='Mobile number'
                             id='Mnumprofile'
                             maxLength={10}
-                            value={profileinfo.MobileNumber}
                             required ></input><br/><br/>
                    </div>
 
@@ -95,7 +89,6 @@ class Profile extends React.Component {
                             name='email'
                             id='emailprofile'
                             placeholder='example@gmail.com'
-                            value={profileinfo.Email}
                             required></input><br/><br />
                    </div>
 
@@ -110,7 +103,6 @@ class Profile extends React.Component {
 
          </form>
        </div>
-       ))}
       </body>
     );
   }
