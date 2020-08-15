@@ -44,7 +44,7 @@ class Login extends Component{
              <div className = 'text-center'>
                <a href ='/name' className='text'>Sign Up?</a>
                <span className='p-2'>|</span>
-               <a href='/forgotID' className='text'>Forgot Password?</a>
+               <a href='/forgot' className='text'>Forgot Password?</a>
              </div>
 
            </FormGroup>
