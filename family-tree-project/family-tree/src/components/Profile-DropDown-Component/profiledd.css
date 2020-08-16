@@ -6,14 +6,12 @@
 .dropdown {
   width: 200px;
   float: right;
-  position: relative;
   padding-top: 20px;
 
 
 }
 
 .containerprofile {
-    position: relative;
 
 }
 
@@ -23,13 +21,26 @@
 }
 
 .button {
-  width: 50px;
   background-color: #354248;
-  color: #333;
+  color: white;
   cursor: pointer;
-  font-size: 40px;
-  padding-right: 120px;
+  width: 75px;
+  height: 70px;
+  border: 0px;
 }
+
+.ddimage{
+    float: right;
+    padding-right: 7px;
+    padding-left: 0px;
+}
+
+.ddimage1{
+    float: right;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+
 
 ul {
     list-style:  none;

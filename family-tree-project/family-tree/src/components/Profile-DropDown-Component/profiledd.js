@@ -32,7 +32,14 @@ class Profiledd extends React.Component {
       <div className="dropdown">
         <div className="containerprofile" ref={this.containerprofile}>
           <button type="button" className="button" onClick={this.handleButtonClick} >
-          <img src='https://www.pngitem.com/pimgs/m/293-2934409_index-search-box-drop-down-dropdown-arrow-gif.png' width='10' height='10'/>
+
+            <div className="ddimage1">
+              <img src='../../../images/ddarrow.png' width='10px' height='10px'/>
+            </div>
+
+            <div className="ddimage">
+              <img src="../../../images/ddpicture.png " width= "40px" height= "40px" />
+            </div>
           </button>
           {this.state.open && (
                 <div className="containerprofile" id="list">
