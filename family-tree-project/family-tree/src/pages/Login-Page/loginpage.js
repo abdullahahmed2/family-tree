@@ -8,52 +8,77 @@ import Footer from "../Homepage/Footer.js";
 
 
 class Login extends Component{
-  render(){
-    return(
+    constructor(props) {
+        super(props);
+        this.state = {
+            email: ""
+        }
+    }
 
-      <body>
+    handleSubmit = (event) => {
+        event.preventDefault()
+        const data = this.state
+        console.log(data)
+    }
 
-        <Header/>
+    handleInputChange = (event) => {
+        event.preventDefault()
+        this.setState({
+            [event.target.email]: event.target.value
+        })
+    }
 
-       <Form className ='login-form'>
-           <h1 className='login'> Log In </h1>
+    render(){
+        const {email} = this.state
 
+        return(
+            <body>
+                <Header/>
 
-           <FormGroup className='input-box'>
-             <Label className = "email"></Label>
-             <div>
-             <input type='email' placeholder='Email Address'/>
-             </div>
+                <Form className ='login-form' onSubmit={this.handleSubmit}>
+                    <h1 className='login'> Log In </h1>
 
-             <Label className = "password"></Label>
-             <div>
-             <input type = 'password' placeholder ='Password'/>
-             </div>
-           </FormGroup>
+                    <FormGroup className='input-box'>
+                    <p>Email: {email}</p>
+                        <Label className = "email"></Label>
+                        <div>
+                            <input type='email' placeholder='Email Address' onChange={this.handleInputChange}/>
+                        </div>
 
+                        <Label className = "password"></Label>
+                        <div>
+                            <input type = 'password' placeholder ='Password' onChange={this.handleInputChange}/>
+                        </div>
+                    </FormGroup>
+                    
 
-           <FormGroup>
-             <Button className='btn btn-block btn-lg btn-dark'>Login</Button>
+                    <FormGroup>
+                        <div>
+                            <input
+                                type="submit"
+                                value="Submit"
+                                className="'btn btn-block btn-lg btn-dark" />
+                        </div>
 
-             <div className='text-center pt-4'>
-                or continue with your social account
-             </div>
+                        <div className='text-center pt-4'>
+                            Or continue with your social account
+                        </div>
 
-             <FacebookLoginButton className='mt-3 mb-3'/>
+                        <FacebookLoginButton className='mt-3 mb-3'/>
 
-             <div className = 'text-center'>
-               <a href ='/name' className='text'>Sign Up?</a>
-               <span className='p-2'>|</span>
-               <a href='/forgot' className='text'>Forgot Password?</a>
-             </div>
+                        <div className = 'text-center'>
+                            <a href ='/name' className='text'>Sign Up?</a>
+                            <span className='p-2'>|</span>
+                            <a href='/forgot' className='text'>Forgot Password?</a>
+                        </div>
 
-           </FormGroup>
+                </FormGroup>
 
-       </Form>
+            </Form>
 
-       <Footer/>
+            <Footer/>
 
-      </body>
+        </body>
 
     )
   }

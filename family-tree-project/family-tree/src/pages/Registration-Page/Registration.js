@@ -46,7 +46,6 @@ class RCName extends React.Component {
              </div>
 
 
-
              <div className= "DOB">
                 <label for='dob'>Date of Birth:</label><br/>
                 <input
@@ -56,7 +55,6 @@ class RCName extends React.Component {
                     placeholder='mm/dd/yyyy'
                     required/> <br/><br/>
              </div>
-
 
 
            <div className="number">
@@ -75,7 +73,6 @@ class RCName extends React.Component {
            </div>
 
 
-
            <div className="Email">
                 <label for="email">Email: </label><br />
                 <input
@@ -85,7 +82,6 @@ class RCName extends React.Component {
                     placeholder='example@gmail.com'
                     required></input><br /><br />
            </div>
-
 
 
            <div className="Password">
@@ -108,9 +104,7 @@ class RCName extends React.Component {
            </div>
 
 
-
            <div id="Gender">
-
               <div className= "Gender">
                 <label> Gender </label> <br/>
               </div>
@@ -128,7 +122,6 @@ class RCName extends React.Component {
                    id="female"
                    name="gender"
                    value="female"></input> <br/><br/>
-
           </div>
 
 
