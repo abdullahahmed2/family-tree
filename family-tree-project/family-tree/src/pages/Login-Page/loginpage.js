@@ -5,7 +5,7 @@ import './loginpage.css';
 import {
     Form,
     FormGroup,
-    Label,
+    Label
 } from 'reactstrap';
 import {
     FacebookLoginButton
@@ -63,7 +63,7 @@ class Login extends Component {
 
                 <FormGroup >
                     <div >
-                        <input type = "submit" value = "Submit" className = "'btn btn-block btn-lg btn-dark" / >
+                        <input type="submit" value="Submit" className="'btn btn-block btn-lg btn-dark" / >
                     </div>
 
                     <div className = 'text-center pt-4' >
