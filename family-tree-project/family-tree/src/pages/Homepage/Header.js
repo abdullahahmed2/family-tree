@@ -10,27 +10,27 @@ class Header extends React.Component{
 
 
 
-        <header>
+        		<header>
 
-          <div className='container'>
+          		<div className='container'>
 
 						<div id ="brand">
 
-						{headerData.map(data => (
+							{headerData.map(data => (
 								<h1 value={data.pageHeader}>
 										{data.pageHeader}
 								</h1>
 						))}
 
-            </div>
+            			</div>
 
 
 
-          </div>
+          		</div>
 
 		  <Profiledd/>
 
-		  
+
 
 
           <NavBar/>

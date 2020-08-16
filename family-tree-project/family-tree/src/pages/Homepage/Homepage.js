@@ -9,22 +9,22 @@ class homepage extends React.Component{
 
 
 				<div>
-					<body>
+					<div>
 
 						<Header/>
 
 						<section id="showcase">
 							<section id="text">
 								<div className="container">
-								<h2>where life begins</h2>
-								<h1>AND NEVER ENDS,</h1>
+									<h2>where life begins</h2>
+									<h1>AND NEVER ENDS,</h1>
 								</div>
 							</section>
 						</section>
 
 						<Footer/>
 
-					</body>
+					</div>
 
 				</div>
 			)

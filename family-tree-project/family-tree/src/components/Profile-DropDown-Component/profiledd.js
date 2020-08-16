@@ -1,6 +1,5 @@
 import React from 'react';
 import "../Profile-DropDown-Component/profiledd.css";
-import Profile from '../../pages/Profile-Page/Profile.js';
 
 class Profiledd extends React.Component {
   containerprofile = React.createRef();
@@ -33,10 +32,10 @@ class Profiledd extends React.Component {
         <div className="containerprofile" ref={this.containerprofile}>
           <button type="button" className="button" onClick={this.handleButtonClick} >
             <div className="ddimage1">
-              <img src='../../../images/ddarrow.png' width='10px' height='10px'/>
+              <img src='../../../images/ddarrow.png' alt='' width='10px' height='10px'/>
             </div>
             <div className="ddimage">
-              <img src="../../../images/ddpicture.png " width= "40px" height= "40px" />
+              <img src="../../../images/ddpicture.png" alt='' width= "40px" height= "40px" />
             </div>
           </button>
           {this.state.open && (

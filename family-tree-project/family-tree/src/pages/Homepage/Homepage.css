@@ -3,13 +3,11 @@
 	padding: 0px;
 }
 
-
 body{
 	font-family: sans-serif;
 	font-size: 15px;
 	background-color:#f4f4f4;
 }
-
 
 /* Global */
 .container {
@@ -25,8 +23,6 @@ ul{
 a{
 	text-decoration: none;
 }
-
-
 
 /***** Header *****/
 

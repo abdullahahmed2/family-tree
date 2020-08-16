@@ -14,7 +14,7 @@ class ForgotID extends React.Component{
 
        </form>
 
-       <input className='submit' type='submit' value='submit' className='submit' />
+       <input className='submit' type='submit' value='submit' />
 
 
     </div>
