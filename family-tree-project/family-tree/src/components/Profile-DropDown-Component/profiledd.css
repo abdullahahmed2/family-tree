@@ -29,6 +29,12 @@
   border: 0px;
 }
 
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+}
+
 .ddimage{
     float: right;
     padding-right: 7px;
