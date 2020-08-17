@@ -26,44 +26,45 @@ class Login extends Component {
     handleSubmit = (event) => {
         event.preventDefault()
         const data = this.state
-        console.log(data)
+        console.log('This data represents what can be sent to the backend: ', data)
     }
 
     handleInputChange = (event) => {
         event.preventDefault()
         this.setState({
-            [event.target.email]: event.target.value
+            [event.target.name]: event.target.value
         })
     }
 
     render() {
-        const {email} = this.state.email
-        const {password} = this.state.password
+        const email = this.state.email
+        const password = this.state.password
 
         return (
-            <body >
+            <div>
                 <Header / >
-
-                <Form className = 'login-form' onSubmit = {this.handleSubmit} >
+                <div>
+                    <p>Email: {email}</p>
+                    <p>Password: {password}</p>
+                </div>
+                <Form className = 'login-form' onSubmit = {this.handleSubmit}>
                 <h1 className = 'login' > Log In </h1>
-
                 <FormGroup className = 'input-box' >
-                    <p > Email: {email} < /p>
-                    <Label className = "email" > < /Label>
+                    <Label className = "email"> < /Label>
                     <div >
-                        <input type = 'email' placeholder = 'Email Address' onChange = {this.handleInputChange}/>
+                        <input type = 'email' name='email' placeholder = 'Email Address' onChange = {this.handleInputChange}/>
                     </div>
 
                     <Label className = "password" > </Label>
                     <div>
-                        <input type = 'password' placeholder = 'Password' onChange = {this.handleInputChange}/>
+                        <input type = 'password' name='password' placeholder = 'Password' onChange = {this.handleInputChange}/>
                     </div>
                 </FormGroup>
 
 
                 <FormGroup >
                     <div >
-                        <input type="submit" value="Submit" className="'btn btn-block btn-lg btn-dark" / >
+                        <input type="submit" value="Submit" className="'btn btn-block btn-lg btn-dark"/>
                     </div>
 
                     <div className = 'text-center pt-4' >
@@ -84,7 +85,7 @@ class Login extends Component {
 
                 <Footer / >
 
-            </body>
+            </div>
 
         )
     }

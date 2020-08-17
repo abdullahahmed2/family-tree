@@ -8,14 +8,9 @@ class Header extends React.Component{
 		render() {
 			return(
 
-
-
         		<header>
-
-          		<div className='container'>
-
+          			<div className='container'>
 						<div id ="brand">
-
 							{headerData.map(data => (
 								<h1 value={data.pageHeader}>
 										{data.pageHeader}
@@ -23,22 +18,10 @@ class Header extends React.Component{
 						))}
 
             			</div>
-
-
-
-          		</div>
-
-		  <Profiledd/>
-
-
-
-
-          <NavBar/>
-
-
-
-
-        </header>
+          			</div>
+		  			<Profiledd/>
+          			<NavBar/>
+        		</header>
 
     );
   }
