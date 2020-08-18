@@ -9,8 +9,8 @@ class helpTip extends React.Component {
           Help
           </button>
           <script>
-          function helptip()
-            {testData.map(data => (
+          function helptip(testData)
+          {testData.map(data => (
             alert(
             <div>
             {data.subject}
@@ -21,8 +21,7 @@ class helpTip extends React.Component {
             {data.content}
             </div>
             )
-            ))}
-          }
+          ))}
           </script>
         </div>
     )
