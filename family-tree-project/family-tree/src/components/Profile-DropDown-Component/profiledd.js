@@ -39,7 +39,7 @@ class Profiledd extends React.Component {
             </div>
           </button>
           {this.state.open && (
-                <div className="containerprofile" id="list">
+                <div  id="list">
                   <ul>
                     <li><a href='/profile'>Your Profile</a></li>
                     <li>Edit Profile</li>

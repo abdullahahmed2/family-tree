@@ -21,12 +21,14 @@ class AboutPage extends React.Component {
                     </ul>
 
                     <ul id="project-team">
-                    <b>Project Team</b>:
+                        <b>Project Team</b>:
                         {testData.map(data => (
-                                <li><Collapsible trigger = {data.name}>
-                                    <p>{data.description}</p>
-                                    <a href={data.LinkedIn} target="_blank" rel="noopener noreferrer">Connect with {data.name} on LinkedIn!</a>
-                                </Collapsible></li>
+                                <li>
+                                    <Collapsible trigger = {data.name}>
+                                        <p>{data.description}</p>
+                                        <a href={data.LinkedIn} target="_blank" rel="noopener noreferrer">Connect with {data.name} on LinkedIn!</a>
+                                    </Collapsible>
+                                </li>
                         ))}
                           <Footer/>
                     </ul>
