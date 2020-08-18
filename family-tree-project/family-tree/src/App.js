@@ -19,7 +19,6 @@ function App() {
 
   return (
     <div className="App">
-      <div className="container">
         <Router>
             <Switch>
                 <Route exact path='/' component={homepage} />
@@ -39,7 +38,6 @@ function App() {
                 <Redirect to='/404' />
             </Switch>
         </Router>
-      </div>
     </div>
   );
 }
