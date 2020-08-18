@@ -13,7 +13,8 @@ body{
 .container {
 	margin:auto;
 	overflow:hidden;
-	
+
+
 
 }
 
@@ -29,7 +30,7 @@ a{
 /***** Header *****/
 
 header{
-	background:#354248;
+	background-image: url(./homepagebackground.jpeg);
 	color:#ffffff;
 	padding-top:30px;
 	min-height:60px;
@@ -62,7 +63,7 @@ header #brand h1{
 
 #showcase {
 box-sizing:border-box;
-background-image: url(https://images.unsplash.com/photo-1528298936130-dace32e4221c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+background: white;
 padding:3px;
 border:1px solid black;
 background-size: 100% 100%;
@@ -74,7 +75,7 @@ text-align:center;
 /*text*/
 #text {
 	padding-top:500px;
-	color:#ffffff
+	color:black;
 }
 #text h1, #text h2{
 	text-align:center;
