@@ -4,20 +4,22 @@
 }
 
 .dropdown {
-  width: 200px;
+  width: 150px;
   float: right;
   padding-top: 20px;
-
-
+  overflow: none;
 }
 
 .containerprofile {
 
+
 }
 
 #list{
-    width: 150px;
+    width: 100px;
     background-color: #fff;
+    padding-right: 0px;
+    
 }
 
 .button {

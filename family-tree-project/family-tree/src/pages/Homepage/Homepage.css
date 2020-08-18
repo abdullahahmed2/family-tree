@@ -12,7 +12,9 @@ body{
 /* Global */
 .container {
 	margin:auto;
-	overflow:hidden
+	overflow:hidden;
+	
+
 }
 
 ul{

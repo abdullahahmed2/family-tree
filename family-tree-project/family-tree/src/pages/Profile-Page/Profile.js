@@ -14,10 +14,18 @@ class Profile extends React.Component {
             <Header/>
 
 
-          <form method='post' id='editprofile' action=''>
+          <form method='post' id='Profile' action=''>
 
+                <div className='profileinfo'>
+                    <div className='profileinfo1'>
+                        <ul>
+                          <li className='profileinfomyp'><a>My Profile</a></li>
+                          <li className='profileinfomyf'><a>My Family</a></li>
+                        </ul>
+                    </div>
+                    <h1>Your Profile </h1>
+                </div>
 
-                    <h1>Profile </h1><br/><br/>
 
 
 
@@ -51,20 +59,82 @@ class Profile extends React.Component {
                         placeholder='Last name'
                         required/><br/><br/>
                 </div>
+                <div className= "DOBprofile">
+                       <label for='dob'>Date of Birth:</label><br/>
+                       <input
+                            type='date'
+                            name='date-of-birth'
+                            id='dobprofile'
+                            placeholder='dd/mm/yyyy'
+                            required/><br/><br/>
+                </div>
+
+
+                <div className="fathernameprofile">
+                  <label for='Fname'>Father's Name:</label><br/>
+
+
+                  <input
+                      type='text'
+                      name='Firstname'
+                      id='Fnameprofile'
+                      maxLength={15}
+                      placeholder='First name'
+                      required />
+
+
+                  <input
+                      type='text'
+                      name='Middlename'
+                      id='Mnameprofile'
+                      maxLength={15}
+                      placeholder='Middle name'
+                      required/>
+
+                  <input
+                      type='text'
+                      name='Lastname'
+                      id='Lnameprofile'
+                      maxLength={15}
+                      placeholder='Last name'
+                      required/><br/><br/>
+                </div>
+
+
+                <div className="mothernameprofile">
+                <label for='Fname'>Mother's Name:</label><br/>
+
+
+                <input
+                    type='text'
+                    name='Firstname'
+                    id='Fnameprofile'
+                    maxLength={15}
+                    placeholder='First name'
+                    required />
+
+
+                <input
+                    type='text'
+                    name='Middlename'
+                    id='Mnameprofile'
+                    maxLength={15}
+                    placeholder='Middle name'
+                    required/>
+
+                <input
+                    type='text'
+                    name='Lastname'
+                    id='Lnameprofile'
+                    maxLength={15}
+                    placeholder='Last name'
+                    required/><br/><br/>
+                </div>
 
 
 
 
 
-              <div className= "DOBprofile">
-                     <label for='dob'>Date of Birth:</label><br/>
-                     <input
-                         type='date'
-                         name='date-of-birth'
-                         id='dobprofile'
-                         placeholder='dd/mm/yyyy'
-                         required/><br/><br/>
-              </div>
 
 
 
@@ -98,12 +168,7 @@ class Profile extends React.Component {
 
 
 
-                  <div className="Submitprofile">
-                     <input
-                         type="submit"
-                         value="Save Changes"
-                         className="submitprofile" />
-                  </div>
+
 
          </form>
 
