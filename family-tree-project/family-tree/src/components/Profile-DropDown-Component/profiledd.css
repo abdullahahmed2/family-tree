@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.dropdown {
+  width: 150px;
+  float: right;
+  padding-top: 20px;
+  overflow: none;
+}
+
+.containerprofile {
+
+
+}
+
+#list{
+    width: 100px;
+    background-color: #fff;
+    padding-right: 0px;
+    
+}
+
+.button {
+  background-color: #354248;
+  color: white;
+  cursor: pointer;
+  width: 75px;
+  height: 70px;
+  border: 0px;
+}
+
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+}
+
+.ddimage{
+    float: right;
+    padding-right: 7px;
+    padding-left: 0px;
+}
+
+.ddimage1{
+    float: right;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+
+
+ul {
+    list-style:  none;
+}
+
+li {
+  padding: 8px 12px 8px 0px ;
+  color: black;
+}
+
+li:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}

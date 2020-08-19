@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "subject": "Username Requirements:"
+  },
+  {
+    "id": "2",
+    "content": "Less than 20 characters"
+  },
+  {
+    "id": "3",
+    "subject": "Password Requirements:"
+  },
+  {
+    "id": "4",
+    "content": "At least one uppercase letter"
+  },
+  {
+    "id": "5",
+    "content": "Minimum of 8 characters"
+  },
+  {
+    "id": "6",
+    "content": "Maximum of 15 characters"
+  }
+]
