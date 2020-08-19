@@ -14,6 +14,7 @@ import myFamily from './pages/Profile-Page/myfamily.js';
 import helpTip from './components/HelpIcon-Component/helpicon.js';
 import NotFound from './pages/notfoundpage.js';
 import Country from './components/Country-DropDown-Component/country.js';
+import Testmodal from './components/Modal-Component/modal.js';
 import ForgotID from './pages/ForgotID/forgotID.js';
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
                 <Route exact path='/helpicon' component={helpTip} />
                 <Route exact path='/country' component={Country} />
                 <Route exact path='/forgot' component={ForgotID} />
+                <Route exact path='/modal' component={Testmodal} />
                 <Route exact path='/404' component={NotFound} />
                 <Redirect to='/404' />
             </Switch>
