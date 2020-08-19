@@ -28,10 +28,11 @@ class history extends React.Component {
                     <p>{data.thing}</p>
 
         ))}
-*/}
+
         </body>
         <Footer/>
       </div>
+      */}
     )
   }
 
