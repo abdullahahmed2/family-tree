@@ -19,13 +19,13 @@ class RCName extends React.Component {
 
 
               <div className="name">
-                <label for='Fname'>Name:</label><br/>
+                <label for='Fname'>Name*:</label><br/>
                 <input
                     type='text'
                     name='Firstname'
                     id='Fname'
                     maxLength={10}
-                    placeholder='First name'
+                    placeholder='First name*'
                     required/>
 
                 <input
@@ -34,20 +34,21 @@ class RCName extends React.Component {
                     id='Mname'
                     maxLength={10}
                     placeholder='Middle name'
-                    required/>
+                    />
 
                 <input
                     type='text'
+
                     name='Lastname'
                     id='Lname'
                     maxLength={10}
-                    placeholder='Last name'
+                    placeholder='Last name*'
                     required/><br/><br/>
              </div>
 
 
              <div className= "DOB">
-                <label for='dob'>Date of Birth:</label><br/>
+                <label for='dob'>Date of Birth*:</label><br/>
                 <input
                     type='date'
                     name='date-of-birth'
@@ -58,7 +59,7 @@ class RCName extends React.Component {
 
 
            <div className="number">
-                <label for="Mnum">Mobile number: </label><br/>
+                <label for="Mnum">Mobile number*: </label><br/>
                 <select id='phone'>
                   <option>+92</option>
                   <option>+1</option>
@@ -74,7 +75,7 @@ class RCName extends React.Component {
 
 
            <div className="Email">
-                <label for="email">Email: </label><br />
+                <label for="email">Email*: </label><br />
                 <input
                     type='Email'
                     name='email'
@@ -85,7 +86,7 @@ class RCName extends React.Component {
 
 
            <div className="Password">
-                <label for="password">Password: </label><br />
+                <label for="password">Password*: </label><br />
                 <input
                     type='Password'
                     name='pass'
@@ -94,7 +95,7 @@ class RCName extends React.Component {
                     required></input><br /><br />
 
 
-                <label for="Rpassword">Repeat password:</label><br />
+                <label for="Rpassword">Repeat password*:</label><br />
                 <input
                     type='Password'
                     name='pass'
