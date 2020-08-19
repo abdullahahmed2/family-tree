@@ -16,13 +16,7 @@ import NotFound from './pages/notfoundpage.js';
 import Country from './components/Country-DropDown-Component/country.js';
 import Testmodal from './components/Modal-Component/modal.js';
 import ForgotID from './pages/ForgotID/forgotID.js';
-<<<<<<< HEAD
-
-
-=======
-import history2 from './pages/History-Page/historicalplacestwo.js'
->>>>>>> f8a3627767d8b7f05415852f4509307ec2920326
-
+import history2 from './pages/History-Page/historicalplacestwo.js';
 
 
 function App() {
