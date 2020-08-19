@@ -4,12 +4,13 @@ import Footer from '../Homepage/Footer.js';
 import Collapsible from 'react-collapsible';
 import testData from './historicalpagestwo.json';
 
-class history extends React.Component {
+class history2 extends React.Component {
   render() {
     return (
-
+      <div>
       <p>Hi</p>
-{/*
+      </div>
+/*
       <div>
         <div><Header/> </div>
 
@@ -32,10 +33,10 @@ class history extends React.Component {
         </body>
         <Footer/>
       </div>
-      */}
+      */
     )
   }
 
 }
 
-export default history;
+export default history2;

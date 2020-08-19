@@ -16,8 +16,12 @@ import NotFound from './pages/notfoundpage.js';
 import Country from './components/Country-DropDown-Component/country.js';
 import Testmodal from './components/Modal-Component/modal.js';
 import ForgotID from './pages/ForgotID/forgotID.js';
+<<<<<<< HEAD
 
 
+=======
+import history2 from './pages/History-Page/historicalplacestwo.js'
+>>>>>>> f8a3627767d8b7f05415852f4509307ec2920326
 
 
 
@@ -34,6 +38,7 @@ function App() {
                 <Route exact path='/name' component={RCName} />
                 <Route exact path='/address' component={Address} />
                 <Route exact path='/historicalplaces' component={history} />
+                <Route exact path='/historicalplacestwo' component={history2} />
                 <Route exact path='/profiledd' component={Profiledd} />
                 <Route exact path='/profile' component={Profile} />
                 <Route exact path='/myfamily' component={myFamily} />
