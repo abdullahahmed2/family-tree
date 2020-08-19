@@ -30,7 +30,7 @@ class Profiledd extends React.Component {
     return (
       <div className="dropdown">
         <div className="containerprofile" ref={this.containerprofile}>
-          <button type="button" className="button" onClick={this.handleButtonClick} >
+          <button type="button" className="buttondd" onClick={this.handleButtonClick} >
             <div className="ddimage1">
               <img src='../../../images/ddarrow.png' alt='' width='10px' height='10px'/>
             </div>
