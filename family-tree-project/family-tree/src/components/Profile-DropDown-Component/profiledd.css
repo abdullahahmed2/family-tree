@@ -19,10 +19,10 @@
     width: 100px;
     background-color: #fff;
     padding-right: 0px;
-    
+
 }
 
-.button {
+.buttondd {
   background-color: #354248;
   color: white;
   cursor: pointer;
@@ -31,7 +31,7 @@
   border: 0px;
 }
 
-.button:hover{
+.buttondd:hover{
     background-color: rgba(0, 0, 0, 0.2);
     cursor: pointer;
 

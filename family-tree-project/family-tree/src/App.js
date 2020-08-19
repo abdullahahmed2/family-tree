@@ -10,15 +10,19 @@ import Address from './components/Address-Component/address.js';
 import history from './pages/History-Page/historicalplaces.js';
 import Profiledd from './components/Profile-DropDown-Component/profiledd.js';
 import Profile from './pages/Profile-Page/Profile.js';
+import myFamily from './pages/Profile-Page/myfamily.js';
 import helpTip from './components/HelpIcon-Component/helpicon.js';
 import NotFound from './pages/notfoundpage.js';
 import Country from './components/Country-DropDown-Component/country.js';
+import Testmodal from './components/Modal-Component/modal.js';
 import ForgotID from './pages/ForgotID/forgotID.js';
+import history2 from './pages/History-Page/historicalplacestwo.js';
+
+
 function App() {
 
   return (
     <div className="App">
-      <div className="container">
         <Router>
             <Switch>
                 <Route exact path='/' component={homepage} />
@@ -28,16 +32,18 @@ function App() {
                 <Route exact path='/name' component={RCName} />
                 <Route exact path='/address' component={Address} />
                 <Route exact path='/historicalplaces' component={history} />
+                <Route exact path='/historicalplacestwo' component={history2} />
                 <Route exact path='/profiledd' component={Profiledd} />
                 <Route exact path='/profile' component={Profile} />
+                <Route exact path='/myfamily' component={myFamily} />
                 <Route exact path='/helpicon' component={helpTip} />
                 <Route exact path='/country' component={Country} />
                 <Route exact path='/forgot' component={ForgotID} />
+                <Route exact path='/modal' component={Testmodal} />
                 <Route exact path='/404' component={NotFound} />
                 <Redirect to='/404' />
             </Switch>
         </Router>
-      </div>
     </div>
   );
 }

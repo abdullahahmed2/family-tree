@@ -19,11 +19,11 @@ class Profile extends React.Component {
                 <div className='profileinfo'>
                     <div className='profileinfo1'>
                         <ul>
-                          <li className='profileinfomyp'><a>My Profile</a></li>
-                          <li className='profileinfomyf'><a>My Family</a></li>
+                          <li className='profileinfomyp'><a href='/profile'>My Profile</a></li>
+                          <li className='profileinfomyf'><a href='/myfamily'>My Family</a></li>
                         </ul>
                     </div>
-                    <h1>Your Profile </h1>
+                    <h1>My Profile</h1>
                 </div>
 
 
@@ -40,7 +40,7 @@ class Profile extends React.Component {
                         id='Fnameprofile'
                         maxLength={15}
                         placeholder='First name'
-                        required />
+                        required />&nbsp;
 
 
                     <input
@@ -49,7 +49,7 @@ class Profile extends React.Component {
                         id='Mnameprofile'
                         maxLength={15}
                         placeholder='Middle name'
-                        required/>
+                        required/>&nbsp;
 
                     <input
                         type='text'
@@ -59,14 +59,33 @@ class Profile extends React.Component {
                         placeholder='Last name'
                         required/><br/><br/>
                 </div>
-                <div className= "DOBprofile">
-                       <label for='dob'>Date of Birth:</label><br/>
-                       <input
-                            type='date'
-                            name='date-of-birth'
-                            id='dobprofile'
-                            placeholder='dd/mm/yyyy'
-                            required/><br/><br/>
+                <div className='Birthinfo'>
+                    <div className= "DOBprofile">
+                           <label for='dob'>Date of Birth:</label><br/>
+                           <input
+                                type='text'
+                                name='date-of-birth'
+                                id='dobprofile'
+                                placeholder='dd/mm/yyyy'
+                                required/>
+                    </div>&nbsp;
+
+                    <div className= "POBprofile">
+                         <label for='POBprofile'>Place of Birth:</label><br/>
+                           <input
+                                type='text'
+                                name='country-of-birth'
+                                id='Cobprofile'
+                                placeholder='Country'
+                                required/>&nbsp;
+
+                           <input
+                                type='text'
+                                name='city-of-birth'
+                                id='cobprofile'
+                                placeholder='City'
+                                required/><br/><br/>
+                    </div>
                 </div>
 
 
@@ -80,7 +99,7 @@ class Profile extends React.Component {
                       id='Fnameprofile'
                       maxLength={15}
                       placeholder='First name'
-                      required />
+                      required />&nbsp;
 
 
                   <input
@@ -89,7 +108,7 @@ class Profile extends React.Component {
                       id='Mnameprofile'
                       maxLength={15}
                       placeholder='Middle name'
-                      required/>
+                      required/>&nbsp;
 
                   <input
                       type='text'
@@ -111,7 +130,7 @@ class Profile extends React.Component {
                     id='Fnameprofile'
                     maxLength={15}
                     placeholder='First name'
-                    required />
+                    required />&nbsp;
 
 
                 <input
@@ -120,7 +139,7 @@ class Profile extends React.Component {
                     id='Mnameprofile'
                     maxLength={15}
                     placeholder='Middle name'
-                    required/>
+                    required/>&nbsp;
 
                 <input
                     type='text'
