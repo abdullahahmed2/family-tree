@@ -43,7 +43,7 @@ class Login extends Component {
         return (
             <div>
                 <Header / >
-                
+
                 <Form className = 'login-form' onSubmit = {this.handleSubmit}>
                 <h1 className = 'login' > Log In </h1>
                 <FormGroup className = 'input-box' >
