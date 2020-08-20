@@ -2,6 +2,7 @@ import React from 'react';
 import './Registration.css';
 import Header from "../Homepage/Header.js";
 import Footer from "../Homepage/Footer.js";
+import testData from './registration.json';
 
 class RCName extends React.Component {
   render() {
