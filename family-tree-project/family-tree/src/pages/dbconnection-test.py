@@ -10,11 +10,11 @@ con = psycopg2.connect(
 
 cur = con.cursor()
 
-cur.execute("select fname, mname, lname from Members")
+cur.execute("select fname, mname, lname from members")
 rows = cur.fetchall()
 
 for r in rows:
-    print(f"First Name {r[0]} Middle Name {r[1]} Last Name {r[2]}")
+    print(f"Full name: {r[0]} {r[1]} {r[2]}")
 
 
 #always close the cursor
