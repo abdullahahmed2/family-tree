@@ -18,7 +18,6 @@ import Testmodal from './components/Modal-Component/modal.js';
 import ForgotID from './pages/ForgotID/forgotID.js';
 import history2 from './pages/History-Page/historicalplacestwo.js';
 
-
 function App() {
 
   return (
