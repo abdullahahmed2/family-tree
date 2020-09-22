@@ -27,7 +27,7 @@ class homepage extends React.Component{
 				</body>
 
 
-			)
+			 )
 		}
 	}
 export default homepage;
