@@ -5,11 +5,9 @@ class helpTip extends React.Component {
   render() {
     return(
         <div>
-          
-          function helptip(testData) 
+          {/* function helptip(testData) 
             {  
             {testData.map(data => (
-               
               <p>
               {data.subject1}
               {data.content1}
@@ -17,14 +15,13 @@ class helpTip extends React.Component {
               {data.content2}
               {data.content3}
               {data.content4}
-              </p>
-               
+              </p>   
              ))}
             }
-            <button onclick={helptip()}>
+          <button onclick={helptip()}>
           Help
-          </button>
-  </div>
+          </button> */}
+        </div>
     )
   }
 }
