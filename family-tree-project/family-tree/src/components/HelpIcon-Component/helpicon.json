@@ -1,26 +1,26 @@
 [
   {
-    "id": "1",
-    "subject": "Username Requirements:"
+    "id" : "1",
+    "subject1" : "Username Requirements:"
   },
   {
-    "id": "2",
-    "content": "Less than 20 characters"
+    "id" : "2",
+    "content1" : "Less than 20 characters"
   },
   {
-    "id": "3",
-    "subject": "Password Requirements:"
+    "id" : "3",
+    "subject2" : "Password Requirements:"
   },
   {
-    "id": "4",
-    "content": "At least one uppercase letter"
+    "id" : "4",
+    "content2" : "At least one uppercase letter"
   },
   {
-    "id": "5",
-    "content": "Minimum of 8 characters"
+    "id" : "5",
+    "content3" : "Minimum of 8 characters"
   },
   {
-    "id": "6",
-    "content": "Maximum of 15 characters"
+    "id" : "6",
+    "content4" : "Maximum of 15 characters"
   }
 ]

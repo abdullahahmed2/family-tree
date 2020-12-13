@@ -5,25 +5,26 @@ class helpTip extends React.Component {
   render() {
     return(
         <div>
-          <button onclick="helptip()">
+          
+          function helptip(testData) 
+            {  
+            {testData.map(data => (
+               
+              <p>
+              {data.subject1}
+              {data.content1}
+              {data.subject2}
+              {data.content2}
+              {data.content3}
+              {data.content4}
+              </p>
+               
+             ))}
+            }
+            <button onclick={helptip()}>
           Help
           </button>
-          <script>
-          function helptip(testData)
-          {testData.map(data => (
-            alert(
-            <div>
-            {data.subject}
-            {data.content}
-            {data.subject}
-            {data.content}
-            {data.content}
-            {data.content}
-            </div>
-            )
-          ))}
-          </script>
-        </div>
+  </div>
     )
   }
 }
