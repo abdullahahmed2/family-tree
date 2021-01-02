@@ -16,7 +16,6 @@ import NotFound from './pages/notfoundpage.js';
 import Country from './components/Country-DropDown-Component/country.js';
 import Testmodal from './components/Modal-Component/modal.js';
 import ForgotID from './pages/ForgotID/forgotID.js';
-import history2 from './pages/History-Page/historicalplacestwo.js';
 
 function App() {
 
@@ -31,7 +30,6 @@ function App() {
                 <Route exact path='/name' component={RCName} />
                 <Route exact path='/address' component={Address} />
                 <Route exact path='/historicalplaces' component={history} />
-                <Route exact path='/historicalplacestwo' component={history2} />
                 <Route exact path='/profiledd' component={Profiledd} />
                 <Route exact path='/profile' component={Profile} />
                 <Route exact path='/myfamily' component={myFamily} />
