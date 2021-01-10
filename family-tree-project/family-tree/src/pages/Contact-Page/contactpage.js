@@ -69,6 +69,10 @@ class ContactPage extends React.Component {
                         placeholder='List your feedback!'
                         required>
                         </textarea>
+
+                        <br></br><br></br>
+
+                        <input id="F-submit" type="submit" value="Submit"></input>
                     </form>
                 </body>
 
