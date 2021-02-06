@@ -2,6 +2,8 @@ import React from 'react';
 import Header from '../Homepage/Header.js';
 import Footer from '../Homepage/Footer.js';
 import '../pages.css';
+import testData from './contactpage.json';
+
 
 class ContactPage extends React.Component {
     render() {
@@ -19,59 +21,70 @@ class ContactPage extends React.Component {
                     <h2>Feedback</h2>
                     <p>Feel free to fill out the form as any feedback is appreciated!</p>
                     <form >
-                        <label for="F-name">Name:</label>&nbsp;
+                     
+                        
+                        {testData.map(data => ( 
+                        <label for={data.id} id="labelsport">{data.title}
                         <input 
-                        type="text" 
-                        id="F-name" 
-                        name="F-name"
-                        size= "40"
-                        maxLength={30}
-                        placeholder='First and last name'
-                        required>
+                        type={data.type}
+                        id={data.id} 
+                        name={data.name}
+                        size= {data.size}
+                        maxLength={data.maxLength}
+                        placeholder={data.placeholder}
+                        required> 
                         </input>
+                        </label>
+                        ))}
 
-                        <br></br><br></br>
-
+                        {/* <br></br><br></br>
+                    
                         <label for="F-email">Email Address:</label>&nbsp;
+                        {testData.map(data => ( 
                         <input 
-                        type="text" 
-                        id="F-email" 
-                        name="F-email"
-                        size= "40"
-                        maxLength={40}
-                        placeholder='Enter full email address'
+                        type={data.type}
+                        id={data.id} 
+                        name={data.name}
+                        size= {data.size}
+                        maxLength={data.maxLength}
+                        placeholder={data.placeholder}
                         required>
                         </input>
+                        ))}
 
                         <br></br><br></br>
 
                         <label for="F-Topic">Topic:</label>&nbsp;
+                        {testData.map(data => ( 
                         <input 
-                        type="text" 
-                        id="F-tpic" 
-                        name="F-topic"
-                        size= "30"
-                        maxLength={40}
-                        placeholder='Topic of your feedback'
+                        type={data.type}
+                        id={data.id} 
+                        name={data.name}
+                        size= {data.size}
+                        maxLength={data.maxLength}
+                        placeholder={data.placeholder}
                         required>
                         </input>
+                        ))}
 
                         <br></br><br></br>
 
-                        <label for="F-description">Description:</label>&nbsp;
+                        <label for="F-description">Description:</label>&nbsp; 
                         <br></br>
+                        {testData.map(data => (
                         <textarea 
-                        type="text" 
-                        id="F-description" 
-                        name="F-description"
-                        size = "100"
-                        maxLength={650}
-                        placeholder='List your feedback!'
+                        type={data.type}
+                        id={data.id} 
+                        name={data.name}
+                        size= {data.size}
+                        maxLength={data.maxLength}
+                        placeholder={data.placeholder}
                         required>
                         </textarea>
+                        ))}
+                        */}
 
                         <br></br><br></br>
-
                         <input id="F-submit" type="submit" value="Submit"></input>
                     </form>
                 </body>
@@ -79,6 +92,7 @@ class ContactPage extends React.Component {
                 <Footer/>
             </div>
 
+        
 
         );
     }
