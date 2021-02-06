@@ -24,7 +24,7 @@ class ContactPage extends React.Component {
                      
                         
                         {testData.map(data => ( 
-                        <label for={data.id} id="labelsport">{data.title}
+                        <label for={data.id} id="contactform">{data.title}
                         <input 
                         type={data.type}
                         id={data.id} 
