@@ -37,53 +37,6 @@ class ContactPage extends React.Component {
                         </label>
                         ))}
 
-                        {/* <br></br><br></br>
-                    
-                        <label for="F-email">Email Address:</label>&nbsp;
-                        {testData.map(data => ( 
-                        <input 
-                        type={data.type}
-                        id={data.id} 
-                        name={data.name}
-                        size= {data.size}
-                        maxLength={data.maxLength}
-                        placeholder={data.placeholder}
-                        required>
-                        </input>
-                        ))}
-
-                        <br></br><br></br>
-
-                        <label for="F-Topic">Topic:</label>&nbsp;
-                        {testData.map(data => ( 
-                        <input 
-                        type={data.type}
-                        id={data.id} 
-                        name={data.name}
-                        size= {data.size}
-                        maxLength={data.maxLength}
-                        placeholder={data.placeholder}
-                        required>
-                        </input>
-                        ))}
-
-                        <br></br><br></br>
-
-                        <label for="F-description">Description:</label>&nbsp; 
-                        <br></br>
-                        {testData.map(data => (
-                        <textarea 
-                        type={data.type}
-                        id={data.id} 
-                        name={data.name}
-                        size= {data.size}
-                        maxLength={data.maxLength}
-                        placeholder={data.placeholder}
-                        required>
-                        </textarea>
-                        ))}
-                        */}
-
                         <br></br><br></br>
                         <input id="F-submit" type="submit" value="Submit"></input>
                     </form>
