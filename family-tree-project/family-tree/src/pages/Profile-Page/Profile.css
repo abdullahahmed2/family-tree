@@ -1,0 +1,271 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+/*-------GLOBAL--------*/
+
+#Profile{
+  background:#7abef6;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  border-top: 1.5px solid;
+  border-right: 3px solid;
+  border-bottom: 3px solid;
+  border-left: 3px solid;
+  background-image: url(./downloadleaf.jpeg);
+}
+
+.profileinfo {
+
+}
+
+.profileinfo h1{
+    color: black;
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left:15px;
+    padding-right:0px;
+    margin-top: 0px;
+    font-size: 55px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.profileinfo1{
+    float: right;
+    margin-top: 40px;
+    margin-left: 100px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+
+
+.profileinfomyf{
+    float: right;
+    padding-left: 10px;
+}
+
+.profileinfomyp{
+    float: left;
+    border-right: 1px solid;
+    height: 35px;
+}
+
+
+::placeholder{
+    font-style: italic;
+}
+
+
+/*-------NAME--------*/
+
+.nameprofile label{
+    padding-left: 15px;
+}
+
+.fathernameprofile label{
+    padding-left: 15px;
+}
+
+.mothernameprofile label{
+    padding-left: 15px;
+}
+
+.siblingsnameprofile label{
+    padding-left: 15px;
+}
+
+.spousesnameprofile label{
+    padding-left: 15px;
+}
+
+.childrennameprofile label{
+    padding-left: 15px;
+}
+
+#Fnameprofile{
+  width: 200px;
+  height: 15px;
+  outline: 0;
+  border: 1.5px solid;
+  padding-top: 18px;
+  padding-bottom:18px;
+  padding-left:7px;
+  padding-right:20px;
+  margin-left: 15px;
+
+
+}
+
+#Mnameprofile{
+  width: 200px;
+  height: 15px;
+  border: 1.5px solid;
+  outline: 0;
+  padding-top: 18px;
+  padding-bottom:18px;
+  padding-left:7px;
+  padding-right:20px;
+
+}
+
+#Lnameprofile{
+  width: 200px;
+  height: 15px;
+  border: 1.5px solid;
+  outline: 0;
+  padding-top: 18px;
+  padding-bottom:18px;
+  padding-left:7px;
+  padding-right:20px;
+
+}
+
+
+/*-------DOB--------*/
+
+
+.DOBprofile{
+    padding-left: 15px;
+
+}
+
+#dobprofile{
+    width: 200px;
+    height: 40px;
+    border: 1.5px solid;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left:7px;
+    padding-right:10px;
+}
+
+
+/*-------PLACE OF BIRTH-------*/
+
+.POBprofile{
+    padding-left: 15px;
+
+}
+
+
+#Cobprofile{
+    width: 200px;
+    border: 1.5px solid;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left:7px;
+    padding-right:10px;
+
+}
+
+#cobprofile{
+    width: 200px;
+    border: 1.5px solid;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left:7px;
+    padding-right:10px;
+}
+
+
+/*-------MOBILE NUMBER--------*/
+
+.numberprofile{
+padding-left: 15px;
+
+}
+
+
+#Mnumprofile{
+  width: 200px;
+  border-top: 1.5px solid;
+  border-right: 1.5px solid;
+  border-bottom: 1.5px solid;
+  border-left: 1.5px solid;
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left:7px;
+  padding-right:10px;
+
+}
+
+#phoneprofile{
+  border-top: 1.5px solid;
+  border-left: 1.5px solid;
+  border-bottom: 1.5px solid;
+  border-right: 0px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left:3px;
+  padding-right:3px;
+  height: 47px;
+}
+
+
+
+/*-------EMAIL--------*/
+
+.Emailprofile{
+padding-left: 15px;
+}
+
+#emailprofile{
+  width: 200px;
+  border: 1.5px solid;
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left:7px;
+  padding-right:10px;
+}
+
+
+
+/*-------PASSWORD--------*/
+
+.Passwordprofile{
+padding-left: 15px;
+}
+
+#passwordprofile{
+  width: 200px;
+  border: 1.5px solid;
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left:7px;
+  padding-right:10px;
+}
+
+#Rpasswordprofile{
+  width: 200px;
+  border: 1.5px solid;
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left:7px;
+  padding-right:10px;
+}
+
+
+
+/*-------GENDER--------*/
+
+#Genderprofile{
+padding-left: 18px;
+}
+
+.Genderprofile{
+padding-bottom: 10px;
+}
+
+
+
+.genderprofile{
+  width: 200px;
+  color: white;
+}

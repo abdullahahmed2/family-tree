@@ -1,0 +1,36 @@
+[
+    {"id": "F-name",
+      "label" : "Name:",
+      "type": "text",
+      "name": "F-name",
+      "size": "40",
+      "maxLength": "30",
+      "placeholder": "First and last name",
+      "title": "Name:"
+    },
+    {"id": "F-email" ,
+        "type": "text",
+        "name": "F-email",
+        "size": "40",
+        "maxLength": "40",
+        "placeholder": "Enter full email address",
+        "title": "Email Address:"
+      },
+      {"id": "F-tpic" ,
+        "type": "text",
+        "name": "F-tpic",
+        "size": "30",
+        "maxLength": "40",
+        "placeholder": "Topic of your feedback",
+        "title": "Topic:"
+      },
+      {"id": "F-description" ,
+        "type": "text",
+        "name": "F-description",
+        "size": "100",
+        "maxLength": "650",
+        "placeholder": "List your feedback!",
+        "title": "Description:"
+      }
+
+ ]

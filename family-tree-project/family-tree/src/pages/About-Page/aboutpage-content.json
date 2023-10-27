@@ -1,0 +1,42 @@
+[
+    {"id": "2",
+      "name": "Abdullah Ahmed",
+      "description": "Abdullah is currently in his last year of college and has worked alongside his teammates to build this website. He was a lead coder in development.",
+      "LinkedIn": "http://linkedin.com/in/abdullah-ahmed-3698251b0"
+    },
+    {"id": "3",
+      "name": "Muhammad Ahmed",
+      "description": "Muhammad Ahmed is a determined individual who paves his way through any given situation with hard work and utmost dedication. He is currently doing his O levels in pre-engineering. Muhammad is one of our main coders of Sadat-e-Janjneri. His passion and knowledge of coding tends to add more value to the project.",
+      "LinkedIn": "https://www.linkedin.com/in/muhammad-ahmed-7161181b1/"
+    },
+    {"id": "4",
+      "name": "Syed Fahad Ahmed",
+      "description": "Syed Fahad Ahmed is one of our main coders of Sadat-E-Janjneri. He is a passionate individual who is currently completing his last year of A level’s as pre-engineering student in Karachi. His interest lies within the Artificial Intelligence ambit and thrives to excel in his desired discipline. His contribution to this project has been consistent and remarkable and surely irreplaceable.",
+      "LinkedIn": "https://www.linkedin.com/in/fahad-ahmed-b6b5a31b3/"
+    },
+    {"id": "5",
+      "name": "Usama Ameen Ahmed",
+      "description": "Usama is a first year MBBS student at Dow International Medical College. He has played an active role in contributing to the planning phase of this project alongside the rest of the team. He is also a part of the team on the developing end and hopes to contribute as much as possible. ",
+      "LinkedIn": "https://linkedin.com/in/usama-ameen-ahmed-4501001b1"
+    },
+    {"id": "6",
+      "name": "Yusra Ahmed",
+      "description": "Yusra Ahmed is an ambitious individual who is currently pursuing Chartered Accountancy. With her prior experience of marketing and advertising, her contribution to the project is to advertise and coordinate to ensure that Sadat-E-Janjneri is dealt professionally and reaches the audience in a pleasing manner. Moreover, with expertise in finance and managing, she aims to add value to our project.",
+      "LinkedIn": "http://linkedin.com/in/yusra-ahmed-741504196"
+    },
+    {"id": "7",
+      "name": "Hafsa Aleem",
+      "description": "Hafsa is a high school student who worked alongside her team members to build this family-oriented application. She picked up many new skills, such as coding, to help contribute to this project. Hafsa is eager to continue gaining experience in different fields in order to determine her future work pathway.",
+      "LinkedIn": "https://www.linkedin.com/in/hafsa-aleem-773358a5/"
+    },
+    {"id": "8",
+      "name": "Sofia Aleem",
+      "description": "Sofia Aleem is a sophomore at the University of Michigan-Dearborn studying business and is a part of the graduating class of 2023. Her contributions include front-end coding and researching.",
+      "LinkedIn": "https://www.linkedin.com/in/sofia-aleem-8b55a11a0/"
+    },
+    {"id": "10",
+      "name": "Usman Rahman",
+      "description": "Usman is a second year computer science major studying at University of Connecticut.",
+      "LinkedIn": "https://www.linkedin.com/in/usman-rahman-6a6086161/"
+    }
+]
